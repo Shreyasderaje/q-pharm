@@ -61,7 +61,7 @@ export default function Footer() {
             and consult qualified professionals.
           </p>
           <p className="mt-4 text-xs text-fog-600">
-            © 2026 Q-Pharm Contributors · MIT License · Drug data via PubChem / DrugBank open
+            © 2026 Shreyas Deraje · MIT License · Drug data via PubChem / DrugBank open
             resources · Structures via RCSB PDB
           </p>
         </div>

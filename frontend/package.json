@@ -1,6 +1,7 @@
 {
   "name": "qpharm-frontend",
   "private": true,
+  "author": "Shreyas Deraje",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
