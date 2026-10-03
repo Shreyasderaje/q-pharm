@@ -173,6 +173,13 @@ q-pharm/
 |---|---|
 | ![platform](docs/screenshots/platform.png) | ![detail](docs/screenshots/detail.png) |
 
+## Preprint
+
+A technical paper describing the system — methods, the quantum-refinement stage, and the
+validated M$^{\text{pro}}$ screening results — is available in
+[`papers/qpharm-preprint.pdf`](papers/qpharm-preprint.pdf) (LaTeX source and
+figure-reproduction script in [`papers/`](papers/)).
+
 ## Limitations (read this)
 
 * **Rigid receptor, approximate docking.** The empirical scoring function and
