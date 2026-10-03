@@ -1,0 +1,88 @@
+{
+  "6LU7": [
+    {
+      "title": "Structure of Mpro from SARS-CoV-2 and discovery of its inhibitors (Jin et al., Nature 2020)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32354959/"
+    },
+    {
+      "title": "PubChem search: Mpro inhibitors & repurposing screens",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=SARS-CoV-2+Mpro+inhibitors+drug+repurposing"
+    }
+  ],
+  "7BV2": [
+    {
+      "title": "Structural basis for remdesivir inhibition of SARS-CoV-2 RdRp (Yin et al., Science 2020)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Yin+remdesivir+SARS-CoV-2+RNA+polymerase+structure"
+    },
+    {
+      "title": "Remdesivir for Covid-19 \u2014 final report (Beigel et al., NEJM 2020)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32445940/"
+    }
+  ],
+  "6M0J": [
+    {
+      "title": "Structure of the SARS-CoV-2 spike RBD bound to ACE2 (Lan et al., Nature 2020)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32225176/"
+    }
+  ],
+  "1J3I": [
+    {
+      "title": "Plasmodium falciparum DHFR-TS structures with antifolates",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Plasmodium+falciparum+dihydrofolate+reductase+structure+inhibitor"
+    }
+  ],
+  "2HU4": [
+    {
+      "title": "Structures of influenza A N1 neuraminidase with oseltamivir",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=influenza+N1+neuraminidase+structure+oseltamivir"
+    }
+  ],
+  "4EY7": [
+    {
+      "title": "Human acetylcholinesterase in complex with donepezil",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=human+acetylcholinesterase+donepezil+crystal+structure"
+    }
+  ],
+  "1HVR": [
+    {
+      "title": "HIV-1 protease structure and inhibitor design",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=HIV-1+protease+crystal+structure+inhibitor"
+    }
+  ],
+  "4M9K": [
+    {
+      "title": "Dengue NS2B-NS3 protease structures and inhibitor screening",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=dengue+NS2B-NS3+protease+structure+inhibitor"
+    }
+  ],
+  "5LC0": [
+    {
+      "title": "Zika virus NS3 helicase structures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Zika+NS3+helicase+structure"
+    }
+  ],
+  "1OHR": [
+    {
+      "title": "Hsp90 inhibitor complexes and resorcinol binding",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Hsp90+resorcinol+inhibitor+crystal+structure"
+    }
+  ],
+  "_general": [
+    {
+      "title": "Drug repurposing: progress, challenges and recommendations (Pushpakom et al., Nat Rev Drug Discov 2019)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Pushpakom+drug+repurposing+2019"
+    },
+    {
+      "title": "A hybrid quantum computing pipeline for real world drug discovery (Li et al., 2024)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11008569/"
+    },
+    {
+      "title": "Quantum computing applications in drug discovery (review, 2026)",
+      "url": "https://academic.oup.com/bib"
+    },
+    {
+      "title": "VQE on the Hubbard dimer \u2014 Qiskit Nature tutorial",
+      "url": "https://qiskit-community.github.io/qiskit-nature/"
+    }
+  ]
+}

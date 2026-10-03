@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Environment / IDE
+.env
+.env.local
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local artifacts
+*.log
+tmp/
+backend/app/data/cache/
+
+# Portable toolchain (local only)
+tools/

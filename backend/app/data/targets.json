@@ -1,0 +1,122 @@
+[
+  {
+    "pdb_id": "6LU7",
+    "name": "SARS-CoV-2 Main Protease (Mpro)",
+    "organism": "SARS-CoV-2",
+    "disease": "COVID-19",
+    "priority": 1,
+    "pocket_ligand": "PJE",
+    "description": "The coronavirus main protease in complex with inhibitor N3 (PJE) \u2014 the primary antiviral drug target of COVID-19.",
+    "n_protein_atoms": 2387,
+    "reference_ligand": "PJE 5:C",
+    "n_ligand_atoms": 13
+  },
+  {
+    "pdb_id": "7BV2",
+    "name": "SARS-CoV-2 RNA-dependent RNA Polymerase (nsp12)",
+    "organism": "SARS-CoV-2",
+    "disease": "COVID-19",
+    "priority": 1,
+    "pocket_ligand": "F86",
+    "description": "The viral replication enzyme captured with remdesivir monophosphate (F86) at its catalytic site \u2014 the canonical repurposing success.",
+    "n_protein_atoms": 8588,
+    "reference_ligand": "F86 101:P",
+    "n_ligand_atoms": 24
+  },
+  {
+    "pdb_id": "6M0J",
+    "name": "SARS-CoV-2 Spike RBD bound to ACE2",
+    "organism": "SARS-CoV-2",
+    "disease": "COVID-19",
+    "priority": 2,
+    "pocket_ligand": null,
+    "description": "Receptor-binding domain of the spike protein at its human ACE2 interface \u2014 entry-inhibitor target (geometric pocket).",
+    "n_protein_atoms": 6406,
+    "reference_ligand": "none (ab-initio pocket)",
+    "n_ligand_atoms": 0
+  },
+  {
+    "pdb_id": "1J3I",
+    "name": "Plasmodium falciparum DHFR-TS",
+    "organism": "Plasmodium falciparum",
+    "disease": "Malaria",
+    "priority": 2,
+    "pocket_ligand": "WRA",
+    "description": "Parasite dihydrofolate reductase in complex with antifolate WR99210 \u2014 target of pyrimethamine-class antimalarials.",
+    "n_protein_atoms": 9163,
+    "reference_ligand": "WRA 609:A",
+    "n_ligand_atoms": 24
+  },
+  {
+    "pdb_id": "4M9K",
+    "name": "Dengue Virus NS2B-NS3 Protease",
+    "organism": "Dengue virus",
+    "disease": "Dengue",
+    "priority": 2,
+    "pocket_ligand": null,
+    "description": "The flaviviral two-component protease essential for dengue replication \u2014 no approved direct inhibitor exists (geometric pocket).",
+    "n_protein_atoms": 1492,
+    "reference_ligand": "none (ab-initio pocket)",
+    "n_ligand_atoms": 0
+  },
+  {
+    "pdb_id": "2HU4",
+    "name": "Influenza A N1 Neuraminidase",
+    "organism": "Influenza A virus",
+    "disease": "Influenza",
+    "priority": 3,
+    "pocket_ligand": "G39",
+    "description": "Group-1 N1 neuraminidase with oseltamivir (G39) bound \u2014 the enzyme behind the flu drug Tamiflu.",
+    "n_protein_atoms": 23696,
+    "reference_ligand": "G39 800:A",
+    "n_ligand_atoms": 20
+  },
+  {
+    "pdb_id": "4EY7",
+    "name": "Human Acetylcholinesterase",
+    "organism": "Homo sapiens",
+    "disease": "Alzheimer's disease",
+    "priority": 3,
+    "pocket_ligand": "E20",
+    "description": "Human acetylcholinesterase in complex with donepezil (E20) \u2014 the cholinergic drug target.",
+    "n_protein_atoms": 8284,
+    "reference_ligand": "E20 604:A",
+    "n_ligand_atoms": 28
+  },
+  {
+    "pdb_id": "1HVR",
+    "name": "HIV-1 Protease",
+    "organism": "HIV-1",
+    "disease": "HIV/AIDS",
+    "priority": 3,
+    "pocket_ligand": "XK2",
+    "description": "The aspartyl protease behind HAART therapy, with inhibitor XK2 \u2014 a classic antiviral docking benchmark.",
+    "n_protein_atoms": 1514,
+    "reference_ligand": "XK2 263:A",
+    "n_ligand_atoms": 46
+  },
+  {
+    "pdb_id": "5LC0",
+    "name": "Zika Virus NS3 Helicase",
+    "organism": "Zika virus",
+    "disease": "Zika fever",
+    "priority": 3,
+    "pocket_ligand": "6T8",
+    "description": "Zika NS3 helicase with an ATP-site inhibitor (6T8) \u2014 a conserved flaviviral replication motor.",
+    "n_protein_atoms": 2892,
+    "reference_ligand": "6T8 1201:A",
+    "n_ligand_atoms": 37
+  },
+  {
+    "pdb_id": "1OHR",
+    "name": "Human Hsp90",
+    "organism": "Homo sapiens",
+    "disease": "Cancer (chaperone)",
+    "priority": 3,
+    "pocket_ligand": "1UN",
+    "description": "Molecular chaperone Hsp90 in complex with a resorcinol inhibitor (1UN) \u2014 oncology target.",
+    "n_protein_atoms": 1464,
+    "reference_ligand": "1UN 201:A",
+    "n_ligand_atoms": 40
+  }
+]

@@ -1,0 +1,3056 @@
+[
+  {
+    "id": "DB-LIB-001",
+    "name": "Aspirin",
+    "drugbank_id": "DB00945",
+    "drug_class": "NSAID",
+    "indication": "Pain, fever, antiplatelet",
+    "smiles": "CC(=O)Oc1ccccc1C(=O)O",
+    "mw": 180.04,
+    "known_repurposing": {
+      "to": "Colorectal cancer prevention",
+      "note": "Long-term low-dose aspirin reduces CRC incidence; classic repurposing case."
+    }
+  },
+  {
+    "id": "DB-LIB-002",
+    "name": "Paracetamol",
+    "drugbank_id": "DB00316",
+    "drug_class": "Analgesic",
+    "indication": "Pain, fever",
+    "smiles": "CC(=O)Nc1ccc(O)cc1",
+    "mw": 151.06,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-003",
+    "name": "Ibuprofen",
+    "drugbank_id": "DB01050",
+    "drug_class": "NSAID",
+    "indication": "Pain, inflammation",
+    "smiles": "CC(C)Cc1ccc(C(C)C(=O)O)cc1",
+    "mw": 206.13,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-004",
+    "name": "Naproxen",
+    "drugbank_id": "DB00560",
+    "drug_class": "NSAID",
+    "indication": "Pain, arthritis",
+    "smiles": "COc1ccc2cc([C@H](C)C(=O)O)ccc2c1",
+    "mw": 230.09,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-005",
+    "name": "Diclofenac",
+    "drugbank_id": "DB00586",
+    "drug_class": "NSAID",
+    "indication": "Pain, arthritis",
+    "smiles": "O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl",
+    "mw": 295.02,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-006",
+    "name": "Aceclofenac",
+    "drugbank_id": null,
+    "drug_class": "NSAID",
+    "indication": "Osteoarthritis pain",
+    "smiles": "O=C(O)COC(=O)Cc1ccccc1Nc1c(Cl)cccc1Cl",
+    "mw": 353.02,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-007",
+    "name": "Nimesulide",
+    "drugbank_id": null,
+    "drug_class": "NSAID",
+    "indication": "Pain, inflammation",
+    "smiles": "CS(=O)(=O)Nc1ccc([N+](=O)[O-])cc1Oc1ccccc1",
+    "mw": 308.05,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-008",
+    "name": "Celecoxib",
+    "drugbank_id": "DB00382",
+    "drug_class": "COX-2 inhibitor",
+    "indication": "Arthritis, pain",
+    "smiles": "Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1",
+    "mw": 381.08,
+    "known_repurposing": {
+      "to": "Familial adenomatous polyposis",
+      "note": "COX-2 inhibition approved to reduce polyps in FAP."
+    }
+  },
+  {
+    "id": "DB-LIB-009",
+    "name": "Indomethacin",
+    "drugbank_id": "DB00328",
+    "drug_class": "NSAID",
+    "indication": "Arthritis, gout",
+    "smiles": "COc1ccc2c(c1)c(CC(=O)O)c(C)n2C(=O)c1ccc(Cl)cc1",
+    "mw": 357.08,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-010",
+    "name": "Meloxicam",
+    "drugbank_id": "DB00814",
+    "drug_class": "NSAID",
+    "indication": "Osteoarthritis",
+    "smiles": "Cc1cnc(NC(=O)C2=C(O)c3ccccc3S(=O)(=O)N2C)s1",
+    "mw": 351.03,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-011",
+    "name": "Ketoprofen",
+    "drugbank_id": "DB01009",
+    "drug_class": "NSAID",
+    "indication": "Pain, inflammation",
+    "smiles": "CC(C(=O)O)c1cccc(C(=O)c2ccccc2)c1",
+    "mw": 254.09,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-012",
+    "name": "Ketorolac",
+    "drugbank_id": "DB00465",
+    "drug_class": "NSAID",
+    "indication": "Acute pain",
+    "smiles": "O=C(c1ccccc1)c1ccc2n1CCC2C(=O)O",
+    "mw": 255.09,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-013",
+    "name": "Piroxicam",
+    "drugbank_id": "DB00542",
+    "drug_class": "NSAID",
+    "indication": "Arthritis",
+    "smiles": "CN1C(C(=O)Nc2ccccn2)=C(O)c2ccccc2S1(=O)=O",
+    "mw": 331.06,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-014",
+    "name": "Sulindac",
+    "drugbank_id": "DB00605",
+    "drug_class": "NSAID",
+    "indication": "Arthritis",
+    "smiles": "CC1=C(CC(=O)O)c2cc(F)ccc2/C1=C\\c1ccc(S(C)=O)cc1",
+    "mw": 356.09,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-015",
+    "name": "Tramadol",
+    "drugbank_id": "DB00193",
+    "drug_class": "Opioid analgesic",
+    "indication": "Moderate pain",
+    "smiles": "COc1cccc([C@@]2(O)CCCC[C@@H]2CN(C)C)c1",
+    "mw": 263.19,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-016",
+    "name": "Morphine",
+    "drugbank_id": "DB00295",
+    "drug_class": "Opioid analgesic",
+    "indication": "Severe pain",
+    "smiles": "CN1CC[C@]23c4c5ccc(O)c4O[C@H]2[C@@H](O)C=C[C@H]3[C@H]1C5",
+    "mw": 285.14,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-017",
+    "name": "Codeine",
+    "drugbank_id": "DB00318",
+    "drug_class": "Opioid analgesic",
+    "indication": "Cough, mild pain",
+    "smiles": "COc1ccc2c3c1O[C@H]1[C@@H](O)C=C[C@H]4[C@@H](C2)N(C)CC[C@@]341",
+    "mw": 299.15,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-018",
+    "name": "Fentanyl",
+    "drugbank_id": "DB00813",
+    "drug_class": "Opioid analgesic",
+    "indication": "Severe pain",
+    "smiles": "CCC(=O)N(c1ccccc1)C1CCN(CCc2ccccc2)CC1",
+    "mw": 336.22,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-019",
+    "name": "Oxycodone",
+    "drugbank_id": "DB00497",
+    "drug_class": "Opioid analgesic",
+    "indication": "Severe pain",
+    "smiles": "COc1ccc2c3c1O[C@H]1C(=O)CC[C@@]4(O)[C@@H](C2)N(C)CC[C@]314",
+    "mw": 315.15,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-020",
+    "name": "Methadone",
+    "drugbank_id": "DB00333",
+    "drug_class": "Opioid agonist",
+    "indication": "Opioid dependence, pain",
+    "smiles": "CCC(=O)C(CC(C)N(C)C)(c1ccccc1)c1ccccc1",
+    "mw": 309.21,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-021",
+    "name": "Buprenorphine",
+    "drugbank_id": "DB00921",
+    "drug_class": "Partial opioid agonist",
+    "indication": "Opioid dependence, pain",
+    "smiles": "CO[C@]12CC[C@@]3(C[C@@H]1[C@](C)(O)C(C)(C)C)[C@H]1Cc4ccc(O)c5c4[C@@]3(CCN1CC1CC1)[C@H]2O5",
+    "mw": 467.3,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-022",
+    "name": "Naloxone",
+    "drugbank_id": "DB01183",
+    "drug_class": "Opioid antagonist",
+    "indication": "Opioid overdose",
+    "smiles": "C=CCN1CC[C@]23c4c5ccc(O)c4O[C@H]2C(=O)CC[C@@]3(O)[C@H]1C5",
+    "mw": 327.15,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-023",
+    "name": "Naltrexone",
+    "drugbank_id": "DB00704",
+    "drug_class": "Opioid antagonist",
+    "indication": "Alcohol/opioid dependence",
+    "smiles": "O=C1CC[C@@]2(O)[C@H]3Cc4ccc(O)c5c4[C@@]2(CCN3CC2CC2)[C@H]1O5",
+    "mw": 341.16,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-024",
+    "name": "Atorvastatin",
+    "drugbank_id": "DB01076",
+    "drug_class": "Statin",
+    "indication": "Hyperlipidemia",
+    "smiles": "CC(C)c1c(C(=O)Nc2ccccc2)c(-c2ccccc2)c(-c2ccc(F)cc2)n1CC[C@@H](O)C[C@@H](O)CC(=O)O",
+    "mw": 558.25,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-025",
+    "name": "Simvastatin",
+    "drugbank_id": "DB00641",
+    "drug_class": "Statin",
+    "indication": "Hyperlipidemia",
+    "smiles": "CCC(C)(C)C(=O)O[C@H]1C[C@@H](C)C=C2C=C[C@H](C)[C@H](CC[C@@H]3C[C@@H](O)CC(=O)O3)[C@H]21",
+    "mw": 418.27,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-026",
+    "name": "Rosuvastatin",
+    "drugbank_id": null,
+    "drug_class": "Statin",
+    "indication": "Hyperlipidemia",
+    "smiles": "CC(C)c1nc(N(C)S(C)(=O)=O)nc(-c2ccc(F)cc2)c1/C=C/[C@@H](O)C[C@@H](O)CC(=O)O",
+    "mw": 481.17,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-027",
+    "name": "Pravastatin",
+    "drugbank_id": null,
+    "drug_class": "Statin",
+    "indication": "Hyperlipidemia",
+    "smiles": "CC[C@H](C)C(=O)O[C@H]1C[C@H](O)C=C2C=C[C@H](C)[C@H](CC[C@@H](O)C[C@@H](O)CC(=O)O)[C@H]21",
+    "mw": 424.25,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-028",
+    "name": "Ezetimibe",
+    "drugbank_id": null,
+    "drug_class": "Cholesterol absorption inhibitor",
+    "indication": "Hyperlipidemia",
+    "smiles": "O=C1[C@H](CC[C@H](O)c2ccc(F)cc2)[C@@H](c2ccc(O)cc2)N1c1ccc(F)cc1",
+    "mw": 409.15,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-029",
+    "name": "Fenofibrate",
+    "drugbank_id": null,
+    "drug_class": "Fibrate",
+    "indication": "Dyslipidemia",
+    "smiles": "CC(C)OC(=O)C(C)(C)Oc1ccc(C(=O)c2ccc(Cl)cc2)cc1",
+    "mw": 360.11,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-030",
+    "name": "Gemfibrozil",
+    "drugbank_id": null,
+    "drug_class": "Fibrate",
+    "indication": "Dyslipidemia",
+    "smiles": "Cc1ccc(C)c(OCCCC(C)(C)C(=O)O)c1",
+    "mw": 250.16,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-031",
+    "name": "Losartan",
+    "drugbank_id": "DB00678",
+    "drug_class": "ARB",
+    "indication": "Hypertension",
+    "smiles": "CCCCc1nc(Cl)c(CO)n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1",
+    "mw": 422.16,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-032",
+    "name": "Valsartan",
+    "drugbank_id": "DB00177",
+    "drug_class": "ARB",
+    "indication": "Hypertension, heart failure",
+    "smiles": "CCCCC(=O)N(Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1)[C@H](C(=O)O)C(C)C",
+    "mw": 435.23,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-033",
+    "name": "Telmisartan",
+    "drugbank_id": null,
+    "drug_class": "ARB",
+    "indication": "Hypertension",
+    "smiles": "CCCc1nc2c(C)cc(-c3nc4ccccc4n3C)cc2n1Cc1ccc(-c2ccccc2C(=O)O)cc1",
+    "mw": 514.24,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-034",
+    "name": "Irbesartan",
+    "drugbank_id": null,
+    "drug_class": "ARB",
+    "indication": "Hypertension",
+    "smiles": "CCCCC1=NC2(CCCC2)C(=O)N1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1",
+    "mw": 428.23,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-035",
+    "name": "Candesartan",
+    "drugbank_id": null,
+    "drug_class": "ARB",
+    "indication": "Hypertension",
+    "smiles": "CCOc1nc2cccc(C(=O)O)c2n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1",
+    "mw": 440.16,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-036",
+    "name": "Enalapril",
+    "drugbank_id": "DB00584",
+    "drug_class": "ACE inhibitor",
+    "indication": "Hypertension, heart failure",
+    "smiles": "CCOC(=O)[C@H](CCc1ccccc1)N[C@@H](C)C(=O)N1CCC[C@H]1C(=O)O",
+    "mw": 376.2,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-037",
+    "name": "Ramipril",
+    "drugbank_id": "DB00775",
+    "drug_class": "ACE inhibitor",
+    "indication": "Hypertension",
+    "smiles": "CCOC(=O)[C@H](CCc1ccccc1)N[C@@H](C)C(=O)N1[C@H](C(=O)O)C[C@@H]2CCC[C@@H]21",
+    "mw": 416.23,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-038",
+    "name": "Captopril",
+    "drugbank_id": "DB00786",
+    "drug_class": "ACE inhibitor",
+    "indication": "Hypertension",
+    "smiles": "C[C@H](CS)C(=O)N1CCC[C@H]1C(=O)O",
+    "mw": 217.08,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-039",
+    "name": "Lisinopril",
+    "drugbank_id": "DB00722",
+    "drug_class": "ACE inhibitor",
+    "indication": "Hypertension",
+    "smiles": "NCCCC[C@H](N[C@@H](CCc1ccccc1)C(=O)O)C(=O)N1CCC[C@H]1C(=O)O",
+    "mw": 405.23,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-040",
+    "name": "Amlodipine",
+    "drugbank_id": "DB00381",
+    "drug_class": "Calcium channel blocker",
+    "indication": "Hypertension, angina",
+    "smiles": "CCOC(=O)C1=C(COCCN)NC(C)=C(C(=O)OC)C1c1ccccc1Cl",
+    "mw": 408.15,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-041",
+    "name": "Nifedipine",
+    "drugbank_id": "DB01115",
+    "drug_class": "Calcium channel blocker",
+    "indication": "Angina, hypertension",
+    "smiles": "COC(=O)C1=C(C)NC(C)=C(C(=O)OC)C1c1ccccc1[N+](=O)[O-]",
+    "mw": 346.12,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-042",
+    "name": "Diltiazem",
+    "drugbank_id": "DB00343",
+    "drug_class": "Calcium channel blocker",
+    "indication": "Angina, hypertension",
+    "smiles": "COc1ccc([C@@H]2Sc3ccccc3N(CCN(C)C)C(=O)[C@@H]2OC(C)=O)cc1",
+    "mw": 414.16,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-043",
+    "name": "Verapamil",
+    "drugbank_id": "DB00661",
+    "drug_class": "Calcium channel blocker",
+    "indication": "Angina, arrhythmia",
+    "smiles": "COc1ccc(CCN(C)CCCC(C#N)(c2ccc(OC)c(OC)c2)C(C)C)cc1OC",
+    "mw": 454.28,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-044",
+    "name": "Metoprolol",
+    "drugbank_id": "DB00264",
+    "drug_class": "Beta blocker",
+    "indication": "Hypertension, MI",
+    "smiles": "COCCc1ccc(OCC(O)CNC(C)C)cc1",
+    "mw": 267.18,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-045",
+    "name": "Propranolol",
+    "drugbank_id": "DB00571",
+    "drug_class": "Beta blocker",
+    "indication": "Hypertension, anxiety, migraine",
+    "smiles": "CC(C)NCC(O)COc1cccc2ccccc12",
+    "mw": 259.16,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-046",
+    "name": "Atenolol",
+    "drugbank_id": "DB00335",
+    "drug_class": "Beta blocker",
+    "indication": "Hypertension",
+    "smiles": "CC(C)NCC(O)COc1ccc(CC(N)=O)cc1",
+    "mw": 266.16,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-047",
+    "name": "Carvedilol",
+    "drugbank_id": "DB00612",
+    "drug_class": "Beta blocker",
+    "indication": "Heart failure",
+    "smiles": "COc1ccccc1OCCNCC(O)COc1cccc2[nH]c3ccccc3c12",
+    "mw": 406.19,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-048",
+    "name": "Bisoprolol",
+    "drugbank_id": null,
+    "drug_class": "Beta blocker",
+    "indication": "Hypertension, heart failure",
+    "smiles": "CC(C)NCC(O)COc1ccc(COCCOC(C)C)cc1",
+    "mw": 325.23,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-049",
+    "name": "Sotalol",
+    "drugbank_id": null,
+    "drug_class": "Beta blocker / antiarrhythmic",
+    "indication": "Arrhythmia",
+    "smiles": "CC(C)NCC(O)c1ccc(NS(C)(=O)=O)cc1",
+    "mw": 272.12,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-050",
+    "name": "Amiodarone",
+    "drugbank_id": "DB01118",
+    "drug_class": "Antiarrhythmic",
+    "indication": "Arrhythmia",
+    "smiles": "CCCCc1oc2ccccc2c1C(=O)c1cc(I)c(OCCN(CC)CC)c(I)c1",
+    "mw": 645.02,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-051",
+    "name": "Digoxin",
+    "drugbank_id": "DB00390",
+    "drug_class": "Cardiac glycoside",
+    "indication": "Heart failure, AF",
+    "smiles": "C[C@H]1O[C@@H](O[C@H]2[C@@H](O)C[C@H](O[C@H]3[C@@H](O)C[C@H](O[C@H]4CC[C@@]5(C)[C@H](CC[C@@H]6[C@@H]5C[C@@H](O)[C@]5(C)[C@@H](C7=CC(=O)OC7)CC[C@]65O)C4)O[C@@H]3C)O[C@@H]2C)C[C@H](O)[C@@H]1O",
+    "mw": 780.43,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-052",
+    "name": "Flecainide",
+    "drugbank_id": "DB01195",
+    "drug_class": "Antiarrhythmic",
+    "indication": "Arrhythmia",
+    "smiles": "O=C(NCC1CCCCN1)c1cc(OCC(F)(F)F)ccc1OCC(F)(F)F",
+    "mw": 414.14,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-053",
+    "name": "Furosemide",
+    "drugbank_id": "DB00695",
+    "drug_class": "Loop diuretic",
+    "indication": "Edema, heart failure",
+    "smiles": "NS(=O)(=O)c1cc(C(=O)O)c(NCc2ccco2)cc1Cl",
+    "mw": 330.01,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-054",
+    "name": "Hydrochlorothiazide",
+    "drugbank_id": "DB00999",
+    "drug_class": "Thiazide diuretic",
+    "indication": "Hypertension",
+    "smiles": "NS(=O)(=O)c1cc2c(cc1Cl)NCNS2(=O)=O",
+    "mw": 296.96,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-055",
+    "name": "Chlorthalidone",
+    "drugbank_id": null,
+    "drug_class": "Thiazide diuretic",
+    "indication": "Hypertension",
+    "smiles": "NS(=O)(=O)c1cc(C2(O)NC(=O)c3ccccc32)ccc1Cl",
+    "mw": 338.01,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-056",
+    "name": "Spironolactone",
+    "drugbank_id": "DB00421",
+    "drug_class": "Aldosterone antagonist",
+    "indication": "Heart failure, hypertension",
+    "smiles": "CC(=O)S[C@@H]1CC2=CC(=O)CC[C@]2(C)[C@H]2CC[C@@]3(C)[C@@H](CC[C@@]34CCC(=O)O4)[C@H]12",
+    "mw": 416.2,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-057",
+    "name": "Eplerenone",
+    "drugbank_id": null,
+    "drug_class": "Aldosterone antagonist",
+    "indication": "Heart failure",
+    "smiles": "COC(=O)[C@@H]1CC2=CC(=O)CC[C@]2(C)[C@@]23O[C@@H]2C[C@@]2(C)[C@@H](CC[C@@]24CCC(=O)O4)[C@H]13",
+    "mw": 414.2,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-058",
+    "name": "Acetazolamide",
+    "drugbank_id": "DB00819",
+    "drug_class": "Carbonic anhydrase inhibitor",
+    "indication": "Glaucoma, altitude sickness",
+    "smiles": "CC(=O)Nc1nnc(S(N)(=O)=O)s1",
+    "mw": 221.99,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-059",
+    "name": "Mannitol",
+    "drugbank_id": null,
+    "drug_class": "Osmotic diuretic",
+    "indication": "Raised intracranial pressure",
+    "smiles": "OC[C@@H](O)[C@@H](O)[C@H](O)[C@H](O)CO",
+    "mw": 182.08,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-060",
+    "name": "Nitroglycerin",
+    "drugbank_id": null,
+    "drug_class": "Nitrate",
+    "indication": "Angina",
+    "smiles": "O=[N+]([O-])OCC(CO[N+](=O)[O-])O[N+](=O)[O-]",
+    "mw": 227.0,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-061",
+    "name": "Isosorbide dinitrate",
+    "drugbank_id": null,
+    "drug_class": "Nitrate",
+    "indication": "Angina",
+    "smiles": "O=[N+]([O-])O[C@H]1CO[C@H]2[C@@H]1OC[C@H]2O[N+](=O)[O-]",
+    "mw": 236.03,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-062",
+    "name": "Warfarin",
+    "drugbank_id": "DB00482",
+    "drug_class": "Anticoagulant",
+    "indication": "Thrombosis, AF",
+    "smiles": "CC(=O)CC(c1ccccc1)c1c(O)c2ccccc2oc1=O",
+    "mw": 308.1,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-063",
+    "name": "Apixaban",
+    "drugbank_id": null,
+    "drug_class": "Factor Xa inhibitor",
+    "indication": "Thrombosis, AF",
+    "smiles": "COc1ccc(-n2nc(C(N)=O)c3c2C(=O)N(c2ccc(N4CCCCC4=O)cc2)CC3)cc1",
+    "mw": 459.19,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-064",
+    "name": "Rivaroxaban",
+    "drugbank_id": null,
+    "drug_class": "Factor Xa inhibitor",
+    "indication": "Thrombosis",
+    "smiles": "O=C(NC[C@H]1CN(c2ccc(N3CCOCC3=O)cc2)C(=O)O1)c1ccc(Cl)s1",
+    "mw": 435.07,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-065",
+    "name": "Dabigatran",
+    "drugbank_id": null,
+    "drug_class": "Thrombin inhibitor",
+    "indication": "Thrombosis, AF",
+    "smiles": "Cn1c(CNc2ccc(C(=N)N)cc2)nc2cc(C(=O)N(CCC(=O)O)c3ccccn3)ccc21",
+    "mw": 471.2,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-066",
+    "name": "Clopidogrel",
+    "drugbank_id": "DB00758",
+    "drug_class": "Antiplatelet",
+    "indication": "Atherosclerotic events",
+    "smiles": "COC(=O)[C@H](c1ccccc1Cl)N1CCc2sccc2C1",
+    "mw": 321.06,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-067",
+    "name": "Colchicine",
+    "drugbank_id": "DB01111",
+    "drug_class": "Anti-gout",
+    "indication": "Gout, FMF",
+    "smiles": "COc1cc2c(c(OC)c1OC)-c1ccc(OC)c(=O)cc1[C@@H](NC(C)=O)CC2",
+    "mw": 399.17,
+    "known_repurposing": {
+      "to": "Cardiovascular events",
+      "note": "LoDoCo2/Colcot trials established low-dose colchicine for atheroprotection."
+    }
+  },
+  {
+    "id": "DB-LIB-068",
+    "name": "Allopurinol",
+    "drugbank_id": "DB00437",
+    "drug_class": "Xanthine oxidase inhibitor",
+    "indication": "Gout",
+    "smiles": "O=c1[nH]cnc2[nH]ncc12",
+    "mw": 136.04,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-069",
+    "name": "Febuxostat",
+    "drugbank_id": null,
+    "drug_class": "Xanthine oxidase inhibitor",
+    "indication": "Gout",
+    "smiles": "Cc1nc(-c2ccc(OCC(C)C)c(C#N)c2)sc1C(=O)O",
+    "mw": 316.09,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-070",
+    "name": "Sildenafil",
+    "drugbank_id": "DB00203",
+    "drug_class": "PDE5 inhibitor",
+    "indication": "Erectile dysfunction, PAH",
+    "smiles": "CCCc1nn(C)c2c(=O)[nH]c(-c3cc(S(=O)(=O)N4CCN(C)CC4)ccc3OCC)nc12",
+    "mw": 474.2,
+    "known_repurposing": {
+      "to": "Erectile dysfunction / PAH",
+      "note": "Developed for angina; the PDE5 side effect became the indication."
+    }
+  },
+  {
+    "id": "DB-LIB-071",
+    "name": "Tadalafil",
+    "drugbank_id": "DB00810",
+    "drug_class": "PDE5 inhibitor",
+    "indication": "ED, BPH, PAH",
+    "smiles": "CN1CC(=O)N2[C@H](c3ccc4c(c3)OCO4)c3[nH]c4ccccc4c3C[C@@H]2C1=O",
+    "mw": 389.14,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-072",
+    "name": "Minoxidil",
+    "drugbank_id": "DB00350",
+    "drug_class": "Vasodilator",
+    "indication": "Severe hypertension",
+    "smiles": "N=c1nc(N2CCCCC2)cc(N)n1O",
+    "mw": 209.13,
+    "known_repurposing": {
+      "to": "Alopecia",
+      "note": "Antihypertensive whose hypertrichosis side effect became topical hair-loss therapy."
+    }
+  },
+  {
+    "id": "DB-LIB-073",
+    "name": "Finasteride",
+    "drugbank_id": "DB00623",
+    "drug_class": "5-alpha reductase inhibitor",
+    "indication": "BPH",
+    "smiles": "CC(C)(C)NC(=O)[C@H]1CC[C@H]2[C@@H]3CC[C@H]4NC(=O)C=C[C@]4(C)[C@H]3CC[C@]12C",
+    "mw": 372.28,
+    "known_repurposing": {
+      "to": "Male-pattern alopecia",
+      "note": "BPH drug repurposed at lower dose for hair loss."
+    }
+  },
+  {
+    "id": "DB-LIB-074",
+    "name": "Dutasteride",
+    "drugbank_id": null,
+    "drug_class": "5-alpha reductase inhibitor",
+    "indication": "BPH",
+    "smiles": "C[C@]12C=CC(=O)N[C@@H]1CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](C(=O)Nc3cc(C(F)(F)F)ccc3C(F)(F)F)CC[C@@H]12",
+    "mw": 528.22,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-075",
+    "name": "Fluoxetine",
+    "drugbank_id": "DB00472",
+    "drug_class": "SSRI",
+    "indication": "Depression, OCD",
+    "smiles": "CNCCC(Oc1ccc(C(F)(F)F)cc1)c1ccccc1",
+    "mw": 309.13,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-076",
+    "name": "Sertraline",
+    "drugbank_id": "DB01104",
+    "drug_class": "SSRI",
+    "indication": "Depression, anxiety",
+    "smiles": "CN[C@H]1CC[C@@H](c2ccc(Cl)c(Cl)c2)c2ccccc21",
+    "mw": 305.07,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-077",
+    "name": "Paroxetine",
+    "drugbank_id": "DB00715",
+    "drug_class": "SSRI",
+    "indication": "Depression, anxiety",
+    "smiles": "Fc1ccc([C@@H]2CCNC[C@H]2COc2ccc3c(c2)OCO3)cc1",
+    "mw": 329.14,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-078",
+    "name": "Citalopram",
+    "drugbank_id": "DB00215",
+    "drug_class": "SSRI",
+    "indication": "Depression",
+    "smiles": "CN(C)CCCC1(c2ccc(F)cc2)OCc2cc(C#N)ccc21",
+    "mw": 324.16,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-079",
+    "name": "Escitalopram",
+    "drugbank_id": "DB01175",
+    "drug_class": "SSRI",
+    "indication": "Depression, anxiety",
+    "smiles": "CN(C)CCC[C@@]1(c2ccc(F)cc2)OCc2cc(C#N)ccc21",
+    "mw": 324.16,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-080",
+    "name": "Venlafaxine",
+    "drugbank_id": "DB00205",
+    "drug_class": "SNRI",
+    "indication": "Depression, anxiety",
+    "smiles": "COc1ccc(C(CN(C)C)C2(O)CCCCC2)cc1",
+    "mw": 277.2,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-081",
+    "name": "Duloxetine",
+    "drugbank_id": "DB00476",
+    "drug_class": "SNRI",
+    "indication": "Depression, neuropathic pain",
+    "smiles": "CNCC[C@H](Oc1cccc2ccccc12)c1cccs1",
+    "mw": 297.12,
+    "known_repurposing": {
+      "to": "Stress urinary incontinence / fibromyalgia",
+      "note": "SNRI extended across pain and urology indications."
+    }
+  },
+  {
+    "id": "DB-LIB-082",
+    "name": "Bupropion",
+    "drugbank_id": "DB01156",
+    "drug_class": "NDRI",
+    "indication": "Depression",
+    "smiles": "CC(NC(C)(C)C)C(=O)c1cccc(Cl)c1",
+    "mw": 239.11,
+    "known_repurposing": {
+      "to": "Smoking cessation",
+      "note": "Antidepressant repurposed as the first non-nicotine smoking-cessation drug."
+    }
+  },
+  {
+    "id": "DB-LIB-083",
+    "name": "Mirtazapine",
+    "drugbank_id": "DB00370",
+    "drug_class": "NaSSA",
+    "indication": "Depression",
+    "smiles": "CN1CCN2c3ncccc3Cc3ccccc3C2C1",
+    "mw": 265.16,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-084",
+    "name": "Trazodone",
+    "drugbank_id": "DB00650",
+    "drug_class": "SARI",
+    "indication": "Depression, insomnia",
+    "smiles": "O=c1n(CCCN2CCN(c3cccc(Cl)c3)CC2)nc2ccccn12",
+    "mw": 371.15,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-085",
+    "name": "Buspirone",
+    "drugbank_id": "DB00247",
+    "drug_class": "5-HT1A agonist",
+    "indication": "Anxiety",
+    "smiles": "O=C1CC2(CCCC2)CC(=O)N1CCCCN1CCN(c2ncccn2)CC1",
+    "mw": 385.25,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-086",
+    "name": "Clozapine",
+    "drugbank_id": "DB00363",
+    "drug_class": "Atypical antipsychotic",
+    "indication": "Treatment-resistant schizophrenia",
+    "smiles": "CN1CCN(C2=Nc3cc(Cl)ccc3Nc3ccccc32)CC1",
+    "mw": 326.13,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-087",
+    "name": "Olanzapine",
+    "drugbank_id": "DB00334",
+    "drug_class": "Atypical antipsychotic",
+    "indication": "Schizophrenia, bipolar",
+    "smiles": "Cc1cc2c(s1)Nc1ccccc1N=C2N1CCN(C)CC1",
+    "mw": 312.14,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-088",
+    "name": "Quetiapine",
+    "drugbank_id": "DB01224",
+    "drug_class": "Atypical antipsychotic",
+    "indication": "Schizophrenia, bipolar",
+    "smiles": "OCCOCCN1CCN(C2=Nc3ccccc3Sc3ccccc32)CC1",
+    "mw": 383.17,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-089",
+    "name": "Risperidone",
+    "drugbank_id": "DB00734",
+    "drug_class": "Atypical antipsychotic",
+    "indication": "Schizophrenia, bipolar",
+    "smiles": "Cc1nc2n(c(=O)c1CCN1CCC(c3noc4cc(F)ccc34)CC1)CCCC2",
+    "mw": 410.21,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-090",
+    "name": "Aripiprazole",
+    "drugbank_id": "DB01238",
+    "drug_class": "Partial dopamine agonist",
+    "indication": "Schizophrenia, bipolar",
+    "smiles": "O=C1CCc2ccc(OCCCCN3CCN(c4cccc(Cl)c4Cl)CC3)cc2N1",
+    "mw": 447.15,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-091",
+    "name": "Haloperidol",
+    "drugbank_id": "DB00502",
+    "drug_class": "Typical antipsychotic",
+    "indication": "Psychosis",
+    "smiles": "O=C(CCCN1CCC(O)(c2ccc(Cl)cc2)CC1)c1ccc(F)cc1",
+    "mw": 375.14,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-092",
+    "name": "Donepezil",
+    "drugbank_id": "DB00843",
+    "drug_class": "Acetylcholinesterase inhibitor",
+    "indication": "Alzheimer's disease",
+    "smiles": "COc1cc2c(cc1OC)C(=O)C(CC1CCN(Cc3ccccc3)CC1)C2",
+    "mw": 379.21,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-093",
+    "name": "Memantine",
+    "drugbank_id": "DB01043",
+    "drug_class": "NMDA antagonist",
+    "indication": "Alzheimer's disease",
+    "smiles": "CC12CC3CC(C)(C1)CC(N)(C3)C2",
+    "mw": 179.17,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-094",
+    "name": "Rivastigmine",
+    "drugbank_id": "DB00989",
+    "drug_class": "Cholinesterase inhibitor",
+    "indication": "Dementia",
+    "smiles": "CCN(C)C(=O)Oc1cccc([C@H](C)N(C)C)c1",
+    "mw": 250.17,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-095",
+    "name": "Levodopa",
+    "drugbank_id": "DB01235",
+    "drug_class": "Dopamine precursor",
+    "indication": "Parkinson's disease",
+    "smiles": "N[C@@H](Cc1ccc(O)c(O)c1)C(=O)O",
+    "mw": 197.07,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-096",
+    "name": "Carbidopa",
+    "drugbank_id": "DB00190",
+    "drug_class": "DOPA decarboxylase inhibitor",
+    "indication": "Parkinson's (adjunct)",
+    "smiles": "C[C@@](Cc1ccc(O)c(O)c1)(NN)C(=O)O",
+    "mw": 226.1,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-097",
+    "name": "Pramipexole",
+    "drugbank_id": "DB00413",
+    "drug_class": "Dopamine agonist",
+    "indication": "Parkinson's disease",
+    "smiles": "CCCN[C@H]1CCc2nc(N)sc2C1",
+    "mw": 211.11,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-098",
+    "name": "Ropinirole",
+    "drugbank_id": "DB00278",
+    "drug_class": "Dopamine agonist",
+    "indication": "Parkinson's disease",
+    "smiles": "CCCN(CCC)CCc1cccc2c1CC(=O)N2",
+    "mw": 260.19,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-099",
+    "name": "Selegiline",
+    "drugbank_id": "DB01037",
+    "drug_class": "MAO-B inhibitor",
+    "indication": "Parkinson's disease",
+    "smiles": "C#CCN(C)[C@H](C)Cc1ccccc1",
+    "mw": 187.14,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-100",
+    "name": "Entacapone",
+    "drugbank_id": "DB00494",
+    "drug_class": "COMT inhibitor",
+    "indication": "Parkinson's (adjunct)",
+    "smiles": "CCN(CC)C(=O)/C(C#N)=C/c1cc(O)c(O)c([N+](=O)[O-])c1",
+    "mw": 305.1,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-101",
+    "name": "Amantadine",
+    "drugbank_id": "DB00916",
+    "drug_class": "Antiviral",
+    "indication": "Influenza A",
+    "smiles": "NC12CC3CC(CC(C3)C1)C2",
+    "mw": 151.14,
+    "known_repurposing": {
+      "to": "Parkinson's disease",
+      "note": "Antiviral whose dopaminergic effects were repurposed for parkinsonism."
+    }
+  },
+  {
+    "id": "DB-LIB-102",
+    "name": "Riluzole",
+    "drugbank_id": "DB00752",
+    "drug_class": "Glutamate modulator",
+    "indication": "ALS",
+    "smiles": "Nc1nc2ccc(OC(F)(F)F)cc2s1",
+    "mw": 234.01,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-103",
+    "name": "Sumatriptan",
+    "drugbank_id": "DB00915",
+    "drug_class": "Triptan",
+    "indication": "Migraine",
+    "smiles": "CNS(=O)(=O)Cc1ccc2[nH]cc(CCN(C)C)c2c1",
+    "mw": 295.14,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-104",
+    "name": "Rizatriptan",
+    "drugbank_id": null,
+    "drug_class": "Triptan",
+    "indication": "Migraine",
+    "smiles": "CN(C)CCc1c[nH]c2ccc(Cn3cncn3)cc12",
+    "mw": 269.16,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-105",
+    "name": "Gabapentin",
+    "drugbank_id": "DB00996",
+    "drug_class": "Gabapentinoid",
+    "indication": "Neuropathic pain, epilepsy",
+    "smiles": "NCC1(CC(=O)O)CCCCC1",
+    "mw": 171.13,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-106",
+    "name": "Pregabalin",
+    "drugbank_id": "DB00230",
+    "drug_class": "Gabapentinoid",
+    "indication": "Neuropathic pain, fibromyalgia",
+    "smiles": "CC(C)C[C@H](CN)CC(=O)O",
+    "mw": 159.13,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-107",
+    "name": "Carbamazepine",
+    "drugbank_id": "DB00564",
+    "drug_class": "Anticonvulsant",
+    "indication": "Epilepsy, trigeminal neuralgia",
+    "smiles": "NC(=O)N1c2ccccc2C=Cc2ccccc21",
+    "mw": 236.09,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-108",
+    "name": "Phenytoin",
+    "drugbank_id": "DB00252",
+    "drug_class": "Anticonvulsant",
+    "indication": "Epilepsy",
+    "smiles": "O=C1NC(=O)C(c2ccccc2)(c2ccccc2)N1",
+    "mw": 252.09,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-109",
+    "name": "Valproic acid",
+    "drugbank_id": "DB00313",
+    "drug_class": "Anticonvulsant",
+    "indication": "Epilepsy, bipolar",
+    "smiles": "CCCC(CCC)C(=O)O",
+    "mw": 144.12,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-110",
+    "name": "Lamotrigine",
+    "drugbank_id": "DB00555",
+    "drug_class": "Anticonvulsant",
+    "indication": "Epilepsy, bipolar",
+    "smiles": "Nc1nnc(-c2cccc(Cl)c2Cl)c(N)n1",
+    "mw": 255.01,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-111",
+    "name": "Levetiracetam",
+    "drugbank_id": "DB01202",
+    "drug_class": "Anticonvulsant",
+    "indication": "Epilepsy",
+    "smiles": "CC[C@@H](C(N)=O)N1CCCC1=O",
+    "mw": 170.11,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-112",
+    "name": "Topiramate",
+    "drugbank_id": "DB00273",
+    "drug_class": "Anticonvulsant",
+    "indication": "Epilepsy, migraine",
+    "smiles": "CC1(C)O[C@@H]2[C@@H](CO[C@@]3(COS(N)(=O)=O)OC(C)(C)O[C@@H]23)O1",
+    "mw": 339.1,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-113",
+    "name": "Diazepam",
+    "drugbank_id": "DB00842",
+    "drug_class": "Benzodiazepine",
+    "indication": "Anxiety, seizures",
+    "smiles": "CN1C(=O)CN=C(c2ccccc2)c2cc(Cl)ccc21",
+    "mw": 284.07,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-114",
+    "name": "Lorazepam",
+    "drugbank_id": "DB00186",
+    "drug_class": "Benzodiazepine",
+    "indication": "Anxiety, status epilepticus",
+    "smiles": "O=C1Nc2ccc(Cl)cc2C(c2ccccc2Cl)=NC1O",
+    "mw": 320.01,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-115",
+    "name": "Alprazolam",
+    "drugbank_id": "DB00404",
+    "drug_class": "Benzodiazepine",
+    "indication": "Anxiety, panic",
+    "smiles": "Cc1nnc2n1-c1ccc(Cl)cc1C(c1ccccc1)=NC2",
+    "mw": 308.08,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-116",
+    "name": "Zolpidem",
+    "drugbank_id": "DB00425",
+    "drug_class": "Hypnotic",
+    "indication": "Insomnia",
+    "smiles": "Cc1ccc(-c2nc3ccc(C)cn3c2CC(=O)N(C)C)cc1",
+    "mw": 307.17,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-117",
+    "name": "Ketamine",
+    "drugbank_id": null,
+    "drug_class": "Anesthetic",
+    "indication": "Anesthesia",
+    "smiles": "CNC1(c2ccccc2Cl)CCCCC1=O",
+    "mw": 237.09,
+    "known_repurposing": {
+      "to": "Treatment-resistant depression",
+      "note": "Anesthetic repurposed as rapid-acting antidepressant (esketamine approved)."
+    }
+  },
+  {
+    "id": "DB-LIB-118",
+    "name": "Metformin",
+    "drugbank_id": "DB00331",
+    "drug_class": "Biguanide",
+    "indication": "Type 2 diabetes",
+    "smiles": "CN(C)C(=N)N=C(N)N",
+    "mw": 129.1,
+    "known_repurposing": {
+      "to": "Cancer / aging (trials)",
+      "note": "AMPK activation sparked broad repurposing trials (TAME, oncology)."
+    }
+  },
+  {
+    "id": "DB-LIB-119",
+    "name": "Glipizide",
+    "drugbank_id": "DB01067",
+    "drug_class": "Sulfonylurea",
+    "indication": "Type 2 diabetes",
+    "smiles": "Cc1cnc(C(=O)NCCc2ccc(S(=O)(=O)NC(=O)NC3CCCCC3)cc2)cn1",
+    "mw": 445.18,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-120",
+    "name": "Glibenclamide",
+    "drugbank_id": null,
+    "drug_class": "Sulfonylurea",
+    "indication": "Type 2 diabetes",
+    "smiles": "COc1ccc(Cl)cc1C(=O)NCCc1ccc(S(=O)(=O)NC(=O)NC2CCCCC2)cc1",
+    "mw": 493.14,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-121",
+    "name": "Glimepiride",
+    "drugbank_id": null,
+    "drug_class": "Sulfonylurea",
+    "indication": "Type 2 diabetes",
+    "smiles": "CCC1=C(C)CN(C(=O)NCCc2ccc(S(=O)(=O)NC(=O)NC3CCC(C)CC3)cc2)C1=O",
+    "mw": 490.22,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-122",
+    "name": "Pioglitazone",
+    "drugbank_id": "DB01132",
+    "drug_class": "PPAR-gamma agonist",
+    "indication": "Type 2 diabetes",
+    "smiles": "CCc1ccc(CCOc2ccc(CC3SC(=O)NC3=O)cc2)nc1",
+    "mw": 356.12,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-123",
+    "name": "Rosiglitazone",
+    "drugbank_id": null,
+    "drug_class": "PPAR-gamma agonist",
+    "indication": "Type 2 diabetes (restricted)",
+    "smiles": "CN(CCOc1ccc(CC2SC(=O)NC2=O)cc1)c1ccccn1",
+    "mw": 357.11,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-124",
+    "name": "Acarbose",
+    "drugbank_id": "DB00204",
+    "drug_class": "Alpha-glucosidase inhibitor",
+    "indication": "Type 2 diabetes",
+    "smiles": "C[C@H]1O[C@H](O[C@H]2[C@H](O)[C@@H](O)[C@@H](O[C@@H]([C@H](O)[C@@H](O)C=O)[C@H](O)CO)O[C@@H]2CO)[C@H](O)[C@@H](O)[C@@H]1N[C@H]1C=C(CO)[C@@H](O)[C@H](O)[C@H]1O",
+    "mw": 645.25,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-125",
+    "name": "Sitagliptin",
+    "drugbank_id": "DB01121",
+    "drug_class": "DPP-4 inhibitor",
+    "indication": "Type 2 diabetes",
+    "smiles": "N[C@@H](CC(=O)N1CCn2c(nnc2C(F)(F)F)C1)Cc1cc(F)c(F)cc1F",
+    "mw": 407.12,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-126",
+    "name": "Saxagliptin",
+    "drugbank_id": null,
+    "drug_class": "DPP-4 inhibitor",
+    "indication": "Type 2 diabetes",
+    "smiles": "N#C[C@@H]1C[C@@H]2C[C@@H]2N1C(=O)[C@@H](N)C12CC3CC(CC(O)(C3)C1)C2",
+    "mw": 315.19,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-127",
+    "name": "Empagliflozin",
+    "drugbank_id": null,
+    "drug_class": "SGLT2 inhibitor",
+    "indication": "Type 2 diabetes, HF",
+    "smiles": "OC[C@H]1O[C@@H](c2ccc(Cl)c(Cc3ccc(O[C@H]4CCOC4)cc3)c2)[C@H](O)[C@@H](O)[C@@H]1O",
+    "mw": 450.14,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-128",
+    "name": "Dapagliflozin",
+    "drugbank_id": null,
+    "drug_class": "SGLT2 inhibitor",
+    "indication": "Diabetes, HF, CKD",
+    "smiles": "CCOc1ccc(Cc2cc([C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)ccc2Cl)cc1",
+    "mw": 408.13,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-129",
+    "name": "Canagliflozin",
+    "drugbank_id": null,
+    "drug_class": "SGLT2 inhibitor",
+    "indication": "Type 2 diabetes",
+    "smiles": "Cc1ccc([C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)cc1Cc1ccc(-c2ccc(F)cc2)s1",
+    "mw": 444.14,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-130",
+    "name": "Levothyroxine",
+    "drugbank_id": null,
+    "drug_class": "Thyroid hormone",
+    "indication": "Hypothyroidism",
+    "smiles": "N[C@@H](Cc1cc(I)c(Oc2cc(I)c(O)c(I)c2)c(I)c1)C(=O)O",
+    "mw": 776.69,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-131",
+    "name": "Methimazole",
+    "drugbank_id": null,
+    "drug_class": "Antithyroid",
+    "indication": "Hyperthyroidism",
+    "smiles": "Cn1cc[nH]c1=S",
+    "mw": 114.03,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-132",
+    "name": "Propylthiouracil",
+    "drugbank_id": null,
+    "drug_class": "Antithyroid",
+    "indication": "Hyperthyroidism",
+    "smiles": "CCCc1cc(=O)[nH]c(=S)[nH]1",
+    "mw": 170.05,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-133",
+    "name": "Albuterol",
+    "drugbank_id": "DB01001",
+    "drug_class": "Beta-2 agonist",
+    "indication": "Asthma, COPD",
+    "smiles": "CC(C)(C)NCC(O)c1ccc(O)c(CO)c1",
+    "mw": 239.15,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-134",
+    "name": "Ipratropium",
+    "drugbank_id": "DB00332",
+    "drug_class": "Antimuscarinic",
+    "indication": "COPD, asthma",
+    "smiles": "CC(C)[N+]1(C)[C@@H]2CC[C@H]1CC(OC(=O)C(CO)c1ccccc1)C2",
+    "mw": 332.22,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-135",
+    "name": "Tiotropium",
+    "drugbank_id": null,
+    "drug_class": "Antimuscarinic",
+    "indication": "COPD",
+    "smiles": "C[N+]1(C)[C@@H]2CC(OC(=O)C(O)(c3cccs3)c3cccs3)C[C@H]1[C@@H]1O[C@@H]12",
+    "mw": 392.1,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-136",
+    "name": "Montelukast",
+    "drugbank_id": "DB00471",
+    "drug_class": "Leukotriene antagonist",
+    "indication": "Asthma, allergy",
+    "smiles": "CC(C)(O)c1ccccc1CC[C@@H](SCC1(CC(=O)O)CC1)c1cccc(/C=C/c2ccc3ccc(Cl)cc3n2)c1",
+    "mw": 585.21,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-137",
+    "name": "Zafirlukast",
+    "drugbank_id": null,
+    "drug_class": "Leukotriene antagonist",
+    "indication": "Asthma",
+    "smiles": "COc1cc(C(=O)NS(=O)(=O)c2ccccc2C)ccc1Cc1cn(C)c2ccc(NC(=O)OC3CCCC3)cc12",
+    "mw": 575.21,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-138",
+    "name": "Theophylline",
+    "drugbank_id": "DB00277",
+    "drug_class": "Methylxanthine",
+    "indication": "Asthma, COPD",
+    "smiles": "Cn1c(=O)c2[nH]cnc2n(C)c1=O",
+    "mw": 180.06,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-139",
+    "name": "Budesonide",
+    "drugbank_id": "DB01222",
+    "drug_class": "Corticosteroid",
+    "indication": "Asthma, Crohn's",
+    "smiles": "CCCC1O[C@@H]2C[C@H]3[C@@H]4CCC5=CC(=O)C=C[C@]5(C)[C@H]4[C@@H](O)C[C@]3(C)[C@]2(C(=O)CO)O1",
+    "mw": 430.24,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-140",
+    "name": "Fluticasone propionate",
+    "drugbank_id": null,
+    "drug_class": "Corticosteroid",
+    "indication": "Asthma, rhinitis",
+    "smiles": "CCC(=O)O[C@]1(C(=O)SCF)[C@H](C)C[C@H]2[C@@H]3C[C@H](F)C4=CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@@]21C",
+    "mw": 500.18,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-141",
+    "name": "Omeprazole",
+    "drugbank_id": "DB00338",
+    "drug_class": "PPI",
+    "indication": "GERD, ulcers",
+    "smiles": "COc1ccc2nc(S(=O)Cc3ncc(C)c(OC)c3C)[nH]c2c1",
+    "mw": 345.11,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-142",
+    "name": "Esomeprazole",
+    "drugbank_id": "DB00767",
+    "drug_class": "PPI",
+    "indication": "GERD",
+    "smiles": "COc1ccc2nc([S@@](=O)Cc3ncc(C)c(OC)c3C)[nH]c2c1",
+    "mw": 345.11,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-143",
+    "name": "Lansoprazole",
+    "drugbank_id": null,
+    "drug_class": "PPI",
+    "indication": "GERD",
+    "smiles": "Cc1c(OCC(F)(F)F)ccnc1CS(=O)c1nc2ccccc2[nH]1",
+    "mw": 369.08,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-144",
+    "name": "Pantoprazole",
+    "drugbank_id": null,
+    "drug_class": "PPI",
+    "indication": "GERD",
+    "smiles": "COc1ccnc(CS(=O)c2nc3ccc(OC(F)F)cc3[nH]2)c1OC",
+    "mw": 383.08,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-145",
+    "name": "Rabeprazole",
+    "drugbank_id": null,
+    "drug_class": "PPI",
+    "indication": "GERD",
+    "smiles": "COCCCOc1ccnc(CS(=O)c2nc3ccccc3[nH]2)c1C",
+    "mw": 359.13,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-146",
+    "name": "Famotidine",
+    "drugbank_id": "DB00927",
+    "drug_class": "H2 blocker",
+    "indication": "GERD, ulcers",
+    "smiles": "NC(N)=Nc1nc(CSCC/C(N)=N/S(N)(=O)=O)cs1",
+    "mw": 337.04,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-147",
+    "name": "Ranitidine",
+    "drugbank_id": "DB00863",
+    "drug_class": "H2 blocker",
+    "indication": "GERD (withdrawn)",
+    "smiles": "CN/C(=C\\[N+](=O)[O-])NCCSCc1ccc(CN(C)C)o1",
+    "mw": 314.14,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-148",
+    "name": "Ondansetron",
+    "drugbank_id": "DB00904",
+    "drug_class": "5-HT3 antagonist",
+    "indication": "Nausea/vomiting",
+    "smiles": "Cc1nccn1CC1CCc2c(c3ccccc3n2C)C1=O",
+    "mw": 293.15,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-149",
+    "name": "Metoclopramide",
+    "drugbank_id": "DB00912",
+    "drug_class": "Prokinetic",
+    "indication": "Gastroparesis",
+    "smiles": "CCN(CC)CCNC(=O)c1cc(Cl)c(N)cc1OC",
+    "mw": 299.14,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-150",
+    "name": "Domperidone",
+    "drugbank_id": null,
+    "drug_class": "Prokinetic",
+    "indication": "Gastroparesis (ex-US)",
+    "smiles": "O=c1[nH]c2ccccc2n1CCCN1CCC(n2c(=O)[nH]c3cc(Cl)ccc32)CC1",
+    "mw": 425.16,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-151",
+    "name": "Loperamide",
+    "drugbank_id": null,
+    "drug_class": "Antidiarrheal",
+    "indication": "Diarrhea",
+    "smiles": "CN(C)C(=O)C(CCN1CCC(O)(c2ccc(Cl)cc2)CC1)(c1ccccc1)c1ccccc1",
+    "mw": 476.22,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-152",
+    "name": "Mesalamine",
+    "drugbank_id": "DB00543",
+    "drug_class": "Aminosalicylate",
+    "indication": "Ulcerative colitis",
+    "smiles": "Nc1ccc(O)c(C(=O)O)c1",
+    "mw": 153.04,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-153",
+    "name": "Sulfasalazine",
+    "drugbank_id": "DB00552",
+    "drug_class": "Aminosalicylate",
+    "indication": "UC, rheumatoid arthritis",
+    "smiles": "O=C(O)c1cc(N=Nc2ccc(S(=O)(=O)Nc3ccccn3)cc2)ccc1O",
+    "mw": 398.07,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-154",
+    "name": "Ursodeoxycholic acid",
+    "drugbank_id": null,
+    "drug_class": "Bile acid",
+    "indication": "Primary biliary cholangitis, gallstones",
+    "smiles": "C[C@H](CCC(=O)O)[C@H]1CC[C@H]2[C@@H]3[C@@H](O)C[C@@H]4C[C@H](O)CC[C@]4(C)[C@H]3CC[C@]12C",
+    "mw": 392.29,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-155",
+    "name": "Amoxicillin",
+    "drugbank_id": "DB01060",
+    "drug_class": "Beta-lactam",
+    "indication": "Bacterial infections",
+    "smiles": "CC1(C)S[C@@H]2[C@H](NC(=O)[C@H](N)c3ccc(O)cc3)C(=O)N2[C@H]1C(=O)O",
+    "mw": 365.1,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-156",
+    "name": "Cephalexin",
+    "drugbank_id": null,
+    "drug_class": "Beta-lactam (cephalosporin)",
+    "indication": "Bacterial infections",
+    "smiles": "CC1=C(C(=O)O)N2C(=O)[C@@H](NC(=O)[C@H](N)c3ccccc3)[C@H]2SC1",
+    "mw": 347.09,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-157",
+    "name": "Ceftriaxone",
+    "drugbank_id": "DB01212",
+    "drug_class": "Cephalosporin",
+    "indication": "Bacterial infections",
+    "smiles": "CO/N=C(\\C(=O)N[C@@H]1C(=O)N2C(C(=O)O)=C(CSc3nc(=O)c(=O)[nH]n3C)CS[C@H]12)c1csc(N)n1",
+    "mw": 554.05,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-158",
+    "name": "Meropenem",
+    "drugbank_id": "DB00760",
+    "drug_class": "Carbapenem",
+    "indication": "Severe bacterial infections",
+    "smiles": "C[C@@H](O)[C@H]1C(=O)N2C(C(=O)O)=C(S[C@@H]3CN[C@H](C(=O)N(C)C)C3)[C@H](C)[C@H]12",
+    "mw": 383.15,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-159",
+    "name": "Aztreonam",
+    "drugbank_id": null,
+    "drug_class": "Monobactam",
+    "indication": "Gram-negative infections",
+    "smiles": "C[C@H]1[C@H](NC(=O)/C(=N\\OC(C)(C)C(=O)O)c2csc(N)n2)C(=O)N1S(=O)(=O)O",
+    "mw": 435.05,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-160",
+    "name": "Azithromycin",
+    "drugbank_id": "DB00207",
+    "drug_class": "Macrolide",
+    "indication": "Bacterial infections",
+    "smiles": "CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(O)C[C@@H](C)CN(C)[C@H](C)[C@@H](O)[C@]1(C)O",
+    "mw": 748.51,
+    "known_repurposing": {
+      "to": "COVID-19 / inflammation (trials)",
+      "note": "Immunomodulatory macrolide widely triaged in 2020."
+    }
+  },
+  {
+    "id": "DB-LIB-161",
+    "name": "Clarithromycin",
+    "drugbank_id": "DB01211",
+    "drug_class": "Macrolide",
+    "indication": "Bacterial infections",
+    "smiles": "CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(OC)C[C@@H](C)C(=O)[C@H](C)[C@@H](O)[C@]1(C)O",
+    "mw": 747.48,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-162",
+    "name": "Erythromycin",
+    "drugbank_id": null,
+    "drug_class": "Macrolide",
+    "indication": "Bacterial infections",
+    "smiles": "CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(O)C[C@@H](C)C(=O)[C@H](C)[C@@H](O)[C@]1(C)O",
+    "mw": 733.46,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-163",
+    "name": "Clindamycin",
+    "drugbank_id": null,
+    "drug_class": "Lincosamide",
+    "indication": "Anaerobic/Gram+ infections",
+    "smiles": "CCC[C@@H]1C[C@@H](C(=O)N[C@@H]([C@H]2O[C@H](SC)[C@H](O)[C@@H](O)[C@H]2O)[C@H](C)Cl)N(C)C1",
+    "mw": 424.18,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-164",
+    "name": "Doxycycline",
+    "drugbank_id": "DB00254",
+    "drug_class": "Tetracycline",
+    "indication": "Broad infections, malaria prophylaxis",
+    "smiles": "C[C@H]1c2cccc(O)c2C(O)=C2C(=O)[C@]3(O)C(O)=C(C(N)=O)C(=O)[C@@H](N(C)C)[C@@H]3[C@@H](O)[C@@H]21",
+    "mw": 444.15,
+    "known_repurposing": {
+      "to": "Rosacea / periodontitis",
+      "note": "Sub-antimicrobial anti-inflammatory dosing repurposed."
+    }
+  },
+  {
+    "id": "DB-LIB-165",
+    "name": "Minocycline",
+    "drugbank_id": null,
+    "drug_class": "Tetracycline",
+    "indication": "Acne, infections",
+    "smiles": "CN(C)c1ccc(O)c2c1C[C@H]1C[C@H]3[C@H](N(C)C)C(=O)C(C(N)=O)=C(O)[C@@]3(O)C(=O)C1=C2O",
+    "mw": 457.18,
+    "known_repurposing": {
+      "to": "Neuroinflammation (trials)",
+      "note": "Anti-inflammatory tetracycline trialed in neurodegeneration and stroke."
+    }
+  },
+  {
+    "id": "DB-LIB-166",
+    "name": "Tigecycline",
+    "drugbank_id": null,
+    "drug_class": "Glycylcycline",
+    "indication": "Complicated infections",
+    "smiles": "CN(C)c1cc(NC(=O)CNC(C)(C)C)c(O)c2c1C[C@H]1C[C@H]3[C@H](N(C)C)C(=O)C(C(N)=O)=C(O)[C@@]3(O)C(=O)C1=C2O",
+    "mw": 585.28,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-167",
+    "name": "Gentamicin",
+    "drugbank_id": "DB00798",
+    "drug_class": "Aminoglycoside",
+    "indication": "Gram-negative infections",
+    "smiles": "CNC(C)C1CCC(N)C(OC2C(N)CC(N)C(OC3OCC(C)(O)C(NC)C3O)C2O)O1",
+    "mw": 477.32,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-168",
+    "name": "Amikacin",
+    "drugbank_id": null,
+    "drug_class": "Aminoglycoside",
+    "indication": "Resistant Gram-negatives",
+    "smiles": "NCC[C@H](O)C(=O)N[C@@H]1C[C@H](N)[C@@H](O[C@H]2O[C@H](CN)[C@@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@H]1O[C@H]1O[C@H](CO)[C@@H](O)[C@H](N)[C@H]1O",
+    "mw": 585.29,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-169",
+    "name": "Vancomycin",
+    "drugbank_id": "DB00513",
+    "drug_class": "Glycopeptide",
+    "indication": "MRSA",
+    "smiles": "CN[C@H](CC(C)C)C(=O)N[C@H]1C(=O)N[C@@H](CC(N)=O)C(=O)N[C@H]2C(=O)N[C@H]3C(=O)N[C@H](C(=O)N[C@H](C(=O)O)c4cc(O)cc(O)c4-c4cc3ccc4O)[C@H](O)c3ccc(c(Cl)c3)Oc3cc2cc(c3O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O[C@H]2C[C@](C)(N)[C@H](O)[C@H](C)O2)Oc2ccc(cc2Cl)[C@H]1O",
+    "mw": 1447.43,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-170",
+    "name": "Daptomycin",
+    "drugbank_id": null,
+    "drug_class": "Lipopeptide",
+    "indication": "Gram+ resistant infections",
+    "smiles": "CCCCCCCCCC(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@H](CC(N)=O)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H]1C(=O)NCC(=O)N[C@@H](CCCN)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@H](C)C(=O)N[C@@H](CC(=O)O)C(=O)NCC(=O)N[C@H](CO)C(=O)N[C@@H]([C@H](C)CC(=O)O)C(=O)N[C@@H](CC(=O)c2ccccc2N)C(=O)O[C@@H]1C",
+    "mw": 1619.71,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-171",
+    "name": "Linezolid",
+    "drugbank_id": null,
+    "drug_class": "Oxazolidinone",
+    "indication": "MRSA, VRE",
+    "smiles": "CC(=O)NC[C@H]1CN(c2ccc(N3CCOCC3)c(F)c2)C(=O)O1",
+    "mw": 337.14,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-172",
+    "name": "Nitrofurantoin",
+    "drugbank_id": null,
+    "drug_class": "Nitrofuran",
+    "indication": "UTI",
+    "smiles": "O=C1CN(/N=C/c2ccc([N+](=O)[O-])o2)C(=O)N1",
+    "mw": 238.03,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-173",
+    "name": "Ciprofloxacin",
+    "drugbank_id": "DB00537",
+    "drug_class": "Fluoroquinolone",
+    "indication": "UTI, broad infections",
+    "smiles": "O=C(O)c1cn(C2CC2)c2cc(N3CCNCC3)c(F)cc2c1=O",
+    "mw": 331.13,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-174",
+    "name": "Levofloxacin",
+    "drugbank_id": null,
+    "drug_class": "Fluoroquinolone",
+    "indication": "Pneumonia, UTI",
+    "smiles": "C[C@H]1COc2c(N3CCN(C)CC3)c(F)cc3c(=O)c(C(=O)O)cn1c23",
+    "mw": 361.14,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-175",
+    "name": "Moxifloxacin",
+    "drugbank_id": null,
+    "drug_class": "Fluoroquinolone",
+    "indication": "Pneumonia",
+    "smiles": "COc1c(N2C[C@@H]3CCCN[C@@H]3C2)c(F)cc2c(=O)c(C(=O)O)cn(C3CC3)c12",
+    "mw": 401.18,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-176",
+    "name": "Ofloxacin",
+    "drugbank_id": null,
+    "drug_class": "Fluoroquinolone",
+    "indication": "UTI",
+    "smiles": "CC1COc2c(N3CCN(C)CC3)c(F)cc3c(=O)c(C(=O)O)cn1c23",
+    "mw": 361.14,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-177",
+    "name": "Metronidazole",
+    "drugbank_id": null,
+    "drug_class": "Nitroimidazole",
+    "indication": "Anaerobes, protozoa",
+    "smiles": "Cc1ncc([N+](=O)[O-])n1CCO",
+    "mw": 171.06,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-178",
+    "name": "Tinidazole",
+    "drugbank_id": null,
+    "drug_class": "Nitroimidazole",
+    "indication": "Protozoa, anaerobes",
+    "smiles": "CCS(=O)(=O)CCn1c([N+](=O)[O-])cnc1C",
+    "mw": 247.06,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-179",
+    "name": "Rifampicin",
+    "drugbank_id": null,
+    "drug_class": "Rifamycin",
+    "indication": "Tuberculosis",
+    "smiles": "CO[C@H]1/C=C/O[C@@]2(C)Oc3c(C)c(O)c4c(O)c(c(/C=N/N5CCN(C)CC5)c(O)c4c3C2=O)NC(=O)/C(C)=C\\C=C\\[C@H](C)[C@H](O)[C@@H](C)[C@@H](O)[C@@H](C)[C@H](OC(C)=O)[C@@H]1C",
+    "mw": 822.41,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-180",
+    "name": "Isoniazid",
+    "drugbank_id": null,
+    "drug_class": "Anti-TB",
+    "indication": "Tuberculosis",
+    "smiles": "NNC(=O)c1ccncc1",
+    "mw": 137.06,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-181",
+    "name": "Pyrazinamide",
+    "drugbank_id": null,
+    "drug_class": "Anti-TB",
+    "indication": "Tuberculosis",
+    "smiles": "NC(=O)c1cnccn1",
+    "mw": 123.04,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-182",
+    "name": "Ethambutol",
+    "drugbank_id": null,
+    "drug_class": "Anti-TB",
+    "indication": "Tuberculosis",
+    "smiles": "CC[C@@H](CO)NCCN[C@@H](CC)CO",
+    "mw": 204.18,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-183",
+    "name": "Bedaquiline",
+    "drugbank_id": null,
+    "drug_class": "ATP synthase inhibitor",
+    "indication": "MDR tuberculosis",
+    "smiles": "COc1nc2ccc(Br)cc2cc1[C@@H](c1ccccc1)[C@@](O)(CCN(C)C)c1cccc2ccccc12",
+    "mw": 554.16,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-184",
+    "name": "Clofazimine",
+    "drugbank_id": null,
+    "drug_class": "Rimino-phenazine",
+    "indication": "Leprosy",
+    "smiles": "CC(C)N=c1cc2n(-c3ccc(Cl)cc3)c3ccccc3nc-2cc1Nc1ccc(Cl)cc1",
+    "mw": 472.12,
+    "known_repurposing": {
+      "to": "Gram-negative pneumonia / cancer (trials)",
+      "note": "Leprosy drug repurposed against M. abscessus and explored in oncology."
+    }
+  },
+  {
+    "id": "DB-LIB-185",
+    "name": "Dapsone",
+    "drugbank_id": null,
+    "drug_class": "Sulfone",
+    "indication": "Leprosy, dermatitis herpetiformis",
+    "smiles": "Nc1ccc(S(=O)(=O)c2ccc(N)cc2)cc1",
+    "mw": 248.06,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-186",
+    "name": "Levamisole",
+    "drugbank_id": null,
+    "drug_class": "Anthelmintic / immunomodulator",
+    "indication": "Ascariasis",
+    "smiles": "c1ccc([C@H]2CN3CCSC3=N2)cc1",
+    "mw": 204.07,
+    "known_repurposing": {
+      "to": "Colorectal cancer (historical adjuvant)",
+      "note": "Anthelmintic repurposed as immunoadjuvant in CRC."
+    }
+  },
+  {
+    "id": "DB-LIB-187",
+    "name": "Fluconazole",
+    "drugbank_id": "DB00196",
+    "drug_class": "Azole antifungal",
+    "indication": "Candidiasis, cryptococcosis",
+    "smiles": "OC(Cn1cncn1)(Cn1cncn1)c1ccc(F)cc1F",
+    "mw": 306.1,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-188",
+    "name": "Ketoconazole",
+    "drugbank_id": "DB01026",
+    "drug_class": "Azole antifungal",
+    "indication": "Dermatomycoses, Cushing's",
+    "smiles": "CC(=O)N1CCN(c2ccc(OC[C@@H]3CO[C@@](Cn4ccnc4)(c4ccc(Cl)cc4Cl)O3)cc2)CC1",
+    "mw": 530.15,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-189",
+    "name": "Itraconazole",
+    "drugbank_id": "DB01167",
+    "drug_class": "Azole antifungal",
+    "indication": "Histoplasmosis, aspergillosis",
+    "smiles": "CCC(C)n1ncn(-c2ccc(N3CCN(c4ccc(OC[C@H]5CO[C@](Cn6cncn6)(c6ccc(Cl)cc6Cl)O5)cc4)CC3)cc2)c1=O",
+    "mw": 704.24,
+    "known_repurposing": {
+      "to": "Cancer (trials)",
+      "note": "Antifungal with Hedgehog-pathway and anti-angiogenic activity."
+    }
+  },
+  {
+    "id": "DB-LIB-190",
+    "name": "Voriconazole",
+    "drugbank_id": "DB01240",
+    "drug_class": "Azole antifungal",
+    "indication": "Invasive aspergillosis",
+    "smiles": "C[C@@H](c1ncncc1F)[C@](O)(Cn1cncn1)c1ccc(F)cc1F",
+    "mw": 349.12,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-191",
+    "name": "Posaconazole",
+    "drugbank_id": null,
+    "drug_class": "Azole antifungal",
+    "indication": "Prophylaxis in neutropenia",
+    "smiles": "CC[C@@H]([C@H](C)O)n1ncn(-c2ccc(N3CCN(c4ccc(OC[C@@H]5CO[C@@](Cn6cncn6)(c6ccc(F)cc6F)C5)cc4)CC3)cc2)c1=O",
+    "mw": 700.33,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-192",
+    "name": "Terbinafine",
+    "drugbank_id": "DB00857",
+    "drug_class": "Allylamine",
+    "indication": "Onychomycosis, tinea",
+    "smiles": "CN(C/C=C/C#CC(C)(C)C)Cc1cccc2ccccc12",
+    "mw": 291.2,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-193",
+    "name": "Griseofulvin",
+    "drugbank_id": "DB00400",
+    "drug_class": "Antifungal",
+    "indication": "Dermatophytosis",
+    "smiles": "COC1=CC(=O)C[C@@H](C)[C@]12Oc1c(Cl)c(OC)cc(OC)c1C2=O",
+    "mw": 352.07,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-194",
+    "name": "Amphotericin B",
+    "drugbank_id": "DB00681",
+    "drug_class": "Polyene antifungal",
+    "indication": "Systemic mycoses",
+    "smiles": "C[C@@H]1[C@H](O)[C@@H](C)/C=C/C=C/C=C/C=C/C=C/C=C/C=C/[C@H](O[C@@H]2O[C@H](C)[C@@H](O)[C@H](N)[C@@H]2O)C[C@@H]2O[C@](O)(C[C@@H](O)C[C@@H](O)[C@H](O)CC[C@@H](O)C[C@@H](O)CC(=O)O[C@H]1C)C[C@H](O)[C@H]2C(=O)O",
+    "mw": 923.49,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-195",
+    "name": "Chloroquine",
+    "drugbank_id": "DB00608",
+    "drug_class": "4-aminoquinoline",
+    "indication": "Malaria",
+    "smiles": "CCN(CC)CCCC(C)Nc1ccnc2cc(Cl)ccc12",
+    "mw": 319.18,
+    "known_repurposing": {
+      "to": "Lupus / rheumatoid arthritis",
+      "note": "Antimalarial backbone of autoimmune therapy; 2020 COVID studies."
+    }
+  },
+  {
+    "id": "DB-LIB-196",
+    "name": "Hydroxychloroquine",
+    "drugbank_id": "DB01611",
+    "drug_class": "4-aminoquinoline",
+    "indication": "Malaria, lupus, RA",
+    "smiles": "CCN(CCO)CCCC(C)Nc1ccnc2cc(Cl)ccc12",
+    "mw": 335.18,
+    "known_repurposing": {
+      "to": "Autoimmune disease",
+      "note": "Antimalarial repurposed as staple immunomodulator; COVID-19 trials."
+    }
+  },
+  {
+    "id": "DB-LIB-197",
+    "name": "Primaquine",
+    "drugbank_id": "DB01089",
+    "drug_class": "8-aminoquinoline",
+    "indication": "Relapse malaria",
+    "smiles": "COc1cc(NC(C)CCCN)c2ncccc2c1",
+    "mw": 259.17,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-198",
+    "name": "Pyrimethamine",
+    "drugbank_id": null,
+    "drug_class": "DHFR inhibitor",
+    "indication": "Malaria, toxoplasmosis",
+    "smiles": "CCc1nc(N)nc(N)c1-c1ccc(Cl)cc1",
+    "mw": 248.08,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-199",
+    "name": "Sulfadoxine",
+    "drugbank_id": null,
+    "drug_class": "Sulfonamide",
+    "indication": "Malaria (combination)",
+    "smiles": "COc1ncnc(NS(=O)(=O)c2ccc(N)cc2)c1OC",
+    "mw": 310.07,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-200",
+    "name": "Mefloquine",
+    "drugbank_id": "DB00358",
+    "drug_class": "Quinoline",
+    "indication": "Malaria prophylaxis",
+    "smiles": "OC(c1cc(C(F)(F)F)nc2c(C(F)(F)F)cccc12)C1CCCCN1",
+    "mw": 378.12,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-201",
+    "name": "Artemether",
+    "drugbank_id": null,
+    "drug_class": "Artemisinin derivative",
+    "indication": "Malaria",
+    "smiles": "CO[C@H]1O[C@@H]2O[C@@]3(C)CC[C@H]4[C@H](C)CC[C@@H]([C@H]1C)[C@@]24OO3",
+    "mw": 298.18,
+    "known_repurposing": {
+      "to": "Cancer (trials)",
+      "note": "Antimalarial endoperoxides explored as anticancer agents."
+    }
+  },
+  {
+    "id": "DB-LIB-202",
+    "name": "Lumefantrine",
+    "drugbank_id": null,
+    "drug_class": "Aryl amino alcohol",
+    "indication": "Malaria (combination)",
+    "smiles": "CCCCN(CCCC)CC(O)c1cc(Cl)cc2c1-c1ccc(Cl)cc1/C2=C/c1ccc(Cl)cc1",
+    "mw": 527.15,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-203",
+    "name": "Artesunate",
+    "drugbank_id": null,
+    "drug_class": "Artemisinin derivative",
+    "indication": "Severe malaria",
+    "smiles": "C[C@H]1[C@H](OC(=O)CCC(=O)O)O[C@@H]2O[C@@]3(C)CC[C@H]4[C@H](C)CC[C@@H]1[C@@]24OO3",
+    "mw": 384.18,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-204",
+    "name": "Atovaquone",
+    "drugbank_id": null,
+    "drug_class": "Hydroxynaphthoquinone",
+    "indication": "Malaria prophylaxis, PJP",
+    "smiles": "O=C1C(=O)c2ccccc2C(O)=C1C1CCC(c2ccc(Cl)cc2)CC1",
+    "mw": 366.1,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-205",
+    "name": "Proguanil",
+    "drugbank_id": null,
+    "drug_class": "Biguanide",
+    "indication": "Malaria prophylaxis",
+    "smiles": "CC(C)N=C(N)/N=C(\\N)Nc1ccc(Cl)cc1",
+    "mw": 253.11,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-206",
+    "name": "Quinine",
+    "drugbank_id": "DB00468",
+    "drug_class": "Alkaloid",
+    "indication": "Malaria",
+    "smiles": "C=C[C@H]1CN2CC[C@H]1C[C@H]2[C@H](O)c1ccnc2ccc(OC)cc12",
+    "mw": 324.18,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-208",
+    "name": "Albendazole",
+    "drugbank_id": "DB00518",
+    "drug_class": "Benzimidazole",
+    "indication": "Helminthiasis",
+    "smiles": "CCCSc1ccc2nc(NC(=O)OC)[nH]c2c1",
+    "mw": 265.09,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-208",
+    "name": "Ivermectin",
+    "drugbank_id": "DB00602",
+    "drug_class": "Macrocyclic lactone",
+    "indication": "Onchocerciasis, strongyloidiasis",
+    "smiles": "CC(C)O[P+](=O)OC(C)C",
+    "mw": 165.07,
+    "known_repurposing": {
+      "to": "Scabies / lymphatic filariasis",
+      "note": "Veterinary antiparasitic repositioned for human NTDs (Nobel 2015); widely screened against SARS-CoV-2."
+    }
+  },
+  {
+    "id": "DB-LIB-209",
+    "name": "Mebendazole",
+    "drugbank_id": "DB00642",
+    "drug_class": "Benzimidazole",
+    "indication": "Helminthiasis",
+    "smiles": "COC(=O)Nc1nc2ccc(C(=O)c3ccccc3)cc2[nH]1",
+    "mw": 295.1,
+    "known_repurposing": {
+      "to": "Cancer (trials)",
+      "note": "Tubulin-binding anthelmintic explored in oncology."
+    }
+  },
+  {
+    "id": "DB-LIB-210",
+    "name": "Praziquantel",
+    "drugbank_id": null,
+    "drug_class": "Anthelmintic",
+    "indication": "Schistosomiasis, tapeworm",
+    "smiles": "O=C(C1CCCCC1)N1CC(=O)N2CCc3ccccc3C2C1",
+    "mw": 312.18,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-211",
+    "name": "Diethylcarbamazine",
+    "drugbank_id": null,
+    "drug_class": "Anthelmintic",
+    "indication": "Lymphatic filariasis",
+    "smiles": "CCN(CC)C(=O)N1CCN(C)CC1",
+    "mw": 199.17,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-212",
+    "name": "Nitazoxanide",
+    "drugbank_id": null,
+    "drug_class": "Thiazolide",
+    "indication": "Cryptosporidiosis, giardiasis",
+    "smiles": "CC(=O)Oc1ccccc1C(=O)Nc1ncc([N+](=O)[O-])s1",
+    "mw": 307.03,
+    "known_repurposing": {
+      "to": "Antiviral / oncology (trials)",
+      "note": "Broad-spectrum repurposing candidate (influenza, HCV, CRC)."
+    }
+  },
+  {
+    "id": "DB-LIB-213",
+    "name": "Niclosamide",
+    "drugbank_id": null,
+    "drug_class": "Salicylanilide",
+    "indication": "Tapeworm",
+    "smiles": "O=C(Nc1ccc([N+](=O)[O-])cc1Cl)c1cc(Cl)ccc1O",
+    "mw": 325.99,
+    "known_repurposing": {
+      "to": "Cancer / antiviral (trials)",
+      "note": "Anthelmintic with broad pathway inhibition; top repurposing candidate."
+    }
+  },
+  {
+    "id": "DB-LIB-214",
+    "name": "Miltefosine",
+    "drugbank_id": null,
+    "drug_class": "Phosphocholine analog",
+    "indication": "Leishmaniasis",
+    "smiles": "CCCCCCCCCCCCCCCCOP(=O)([O-])OCC[N+](C)(C)C",
+    "mw": 407.32,
+    "known_repurposing": {
+      "to": "Leishmaniasis",
+      "note": "Originally investigated as anticancer agent; became first oral leishmaniasis drug."
+    }
+  },
+  {
+    "id": "DB-LIB-215",
+    "name": "Auranofin",
+    "drugbank_id": null,
+    "drug_class": "Gold compound",
+    "indication": "Rheumatoid arthritis",
+    "smiles": "CC(=O)OC[C@H]1O[C@@H]([S-])[C@H](OC(C)=O)[C@@H](OC(C)=O)[C@@H]1OC(C)=O.CCP(CC)CC.[Au+]",
+    "mw": 678.13,
+    "known_repurposing": {
+      "to": "Amoebiasis / oncology (trials)",
+      "note": "Thioredoxin-reductase inhibition repurposed against parasites and cancer."
+    }
+  },
+  {
+    "id": "DB-LIB-216",
+    "name": "Suramin",
+    "drugbank_id": null,
+    "drug_class": "Naphthylurea",
+    "indication": "Sleeping sickness, onchocerciasis",
+    "smiles": "Cc1ccc(C(=O)Nc2ccc(S(=O)(=O)O)c3cc(S(=O)(=O)O)cc(S(=O)(=O)O)c23)cc1NC(=O)c1cccc(NC(=O)Nc2cccc(C(=O)Nc3cc(C(=O)Nc4ccc(S(=O)(=O)O)c5cc(S(=O)(=O)O)cc(S(=O)(=O)O)c45)ccc3C)c2)c1",
+    "mw": 1296.05,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-217",
+    "name": "Eflornithine",
+    "drugbank_id": null,
+    "drug_class": "Ornithine decarboxylase inhibitor",
+    "indication": "Sleeping sickness; hirsutism (topical)",
+    "smiles": "NCCCC(N)(C(=O)O)C(F)F",
+    "mw": 182.09,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-218",
+    "name": "Pentamidine",
+    "drugbank_id": null,
+    "drug_class": "Aromatic diamidine",
+    "indication": "PJP, trypanosomiasis",
+    "smiles": "N=C(N)c1ccc(OCCCCCOc2ccc(C(=N)N)cc2)cc1",
+    "mw": 340.19,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-219",
+    "name": "Nifurtimox",
+    "drugbank_id": null,
+    "drug_class": "Nitrofuran",
+    "indication": "Chagas disease",
+    "smiles": "CC1CS(=O)(=O)CCN1/N=C/c1ccc([N+](=O)[O-])o1",
+    "mw": 287.06,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-220",
+    "name": "Benznidazole",
+    "drugbank_id": null,
+    "drug_class": "Nitroimidazole",
+    "indication": "Chagas disease",
+    "smiles": "O=C(Cn1ccnc1[N+](=O)[O-])NCc1ccccc1",
+    "mw": 260.09,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-221",
+    "name": "Ebselen",
+    "drugbank_id": null,
+    "drug_class": "Organoselenium",
+    "indication": "Investigational (stroke, hearing loss; approved in Japan)",
+    "smiles": "O=c1c2ccccc2[se]n1-c1ccccc1",
+    "mw": 274.98,
+    "known_repurposing": {
+      "to": "SARS-CoV-2 Mpro inhibitor",
+      "note": "Top computational hit for Mpro inhibition in 2020 screens."
+    }
+  },
+  {
+    "id": "DB-LIB-222",
+    "name": "Remdesivir",
+    "drugbank_id": "DB14761",
+    "drug_class": "Nucleotide analog",
+    "indication": "Ebola (developed); COVID-19",
+    "smiles": "CCC(CC)COC(=O)[C@H](C)N[P@](=O)(OC[C@H]1O[C@@](C#N)(c2ccc3c(N)ncnn23)[C@H](O)[C@@H]1O)Oc1ccccc1",
+    "mw": 602.23,
+    "known_repurposing": {
+      "to": "COVID-19",
+      "note": "Ebola asset repositioned to first authorized SARS-CoV-2 therapy (RdRp)."
+    }
+  },
+  {
+    "id": "DB-LIB-223",
+    "name": "Nirmatrelvir",
+    "drugbank_id": null,
+    "drug_class": "Protease inhibitor",
+    "indication": "COVID-19",
+    "smiles": "CC(C)(C)[C@H](NC(=O)C(F)(F)F)C(=O)N1C[C@H]2[C@@H]([C@H]1C(=O)N[C@H](C#N)C[C@@H]1CCNC1=O)C2(C)C",
+    "mw": 499.24,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-224",
+    "name": "Molnupiravir",
+    "drugbank_id": null,
+    "drug_class": "Nucleoside analog",
+    "indication": "COVID-19 (EUA)",
+    "smiles": "CC(C)C(=O)OC[C@H]1O[C@@H](n2ccc(NO)nc2=O)[C@H](O)[C@@H]1O",
+    "mw": 329.12,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-225",
+    "name": "Favipiravir",
+    "drugbank_id": "DB12466",
+    "drug_class": "RdRp inhibitor",
+    "indication": "Influenza (Japan)",
+    "smiles": "NC(=O)c1nc(F)c[nH]c1=O",
+    "mw": 157.03,
+    "known_repurposing": {
+      "to": "COVID-19 / NTDs (trials)",
+      "note": "Broad-spectrum RNA-virus polymerase inhibitor."
+    }
+  },
+  {
+    "id": "DB-LIB-226",
+    "name": "Umifenovir",
+    "drugbank_id": "DB13627",
+    "drug_class": "Fusion inhibitor",
+    "indication": "Influenza (RU/CN)",
+    "smiles": "CCOC(=O)c1c(CSc2ccccc2)n(C)c2cc(Br)c(O)c(CN(C)C)c12",
+    "mw": 476.08,
+    "known_repurposing": {
+      "to": "COVID-19 (trials)",
+      "note": "Membrane-fusion inhibitor trialed against SARS-CoV-2."
+    }
+  },
+  {
+    "id": "DB-LIB-227",
+    "name": "Oseltamivir",
+    "drugbank_id": "DB00585",
+    "drug_class": "Neuraminidase inhibitor",
+    "indication": "Influenza",
+    "smiles": "CCOC(=O)C1=C[C@@H](OC(CC)CC)[C@H](NC(C)=O)[C@@H](N)C1",
+    "mw": 312.2,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-228",
+    "name": "Zanamivir",
+    "drugbank_id": null,
+    "drug_class": "Neuraminidase inhibitor",
+    "indication": "Influenza",
+    "smiles": "CC(=O)N[C@H]1[C@H]([C@H](O)[C@H](O)CO)OC(C(=O)O)=C[C@@H]1N=C(N)N",
+    "mw": 332.13,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-229",
+    "name": "Baloxavir marboxil",
+    "drugbank_id": null,
+    "drug_class": "Cap-dependent endonuclease inhibitor",
+    "indication": "Influenza",
+    "smiles": "COC(=O)OCOc1c2n(ccc1=O)N([C@@H]1c3ccccc3SCc3c1ccc(F)c3F)[C@@H]1COCCN1C2=O",
+    "mw": 571.12,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-230",
+    "name": "Acyclovir",
+    "drugbank_id": "DB00787",
+    "drug_class": "Nucleoside analog",
+    "indication": "Herpesviruses",
+    "smiles": "Nc1nc2c(ncn2COCCO)c(=O)[nH]1",
+    "mw": 225.09,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-231",
+    "name": "Valacyclovir",
+    "drugbank_id": null,
+    "drug_class": "Nucleoside analog prodrug",
+    "indication": "Herpesviruses",
+    "smiles": "CC(C)[C@H](N)C(=O)OCCOCn1cnc2c(=O)[nH]c(N)nc21",
+    "mw": 324.15,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-232",
+    "name": "Ganciclovir",
+    "drugbank_id": "DB01004",
+    "drug_class": "Nucleoside analog",
+    "indication": "CMV",
+    "smiles": "Nc1nc2c(ncn2COC(CO)CO)c(=O)[nH]1",
+    "mw": 255.1,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-233",
+    "name": "Zidovudine",
+    "drugbank_id": "DB00495",
+    "drug_class": "NRTI",
+    "indication": "HIV-1",
+    "smiles": "Cc1cn([C@H]2C[C@H](N=[N+]=[N-])[C@@H](CO)O2)c(=O)[nH]c1=O",
+    "mw": 267.1,
+    "known_repurposing": {
+      "to": "HIV/AIDS",
+      "note": "Failed cancer compound became the first approved AIDS drug."
+    }
+  },
+  {
+    "id": "DB-LIB-234",
+    "name": "Lamivudine",
+    "drugbank_id": "DB00709",
+    "drug_class": "NRTI",
+    "indication": "HIV-1, HBV",
+    "smiles": "Nc1ccn([C@@H]2CS[C@H](CO)O2)c(=O)n1",
+    "mw": 229.05,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-235",
+    "name": "Emtricitabine",
+    "drugbank_id": null,
+    "drug_class": "NRTI",
+    "indication": "HIV-1",
+    "smiles": "Nc1nc(=O)n([C@@H]2CS[C@H](CO)O2)cc1F",
+    "mw": 247.04,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-236",
+    "name": "Tenofovir",
+    "drugbank_id": null,
+    "drug_class": "Nucleotide analog",
+    "indication": "HIV-1, HBV",
+    "smiles": "C[C@H](Cn1cnc2c(N)ncnc21)OCP(=O)(O)O",
+    "mw": 287.08,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-237",
+    "name": "Efavirenz",
+    "drugbank_id": "DB00625",
+    "drug_class": "NNRTI",
+    "indication": "HIV-1",
+    "smiles": "O=C1Nc2ccc(Cl)cc2[C@@](C#CC2CC2)(C(F)(F)F)O1",
+    "mw": 315.03,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-238",
+    "name": "Nevirapine",
+    "drugbank_id": "DB00238",
+    "drug_class": "NNRTI",
+    "indication": "HIV-1",
+    "smiles": "Cc1ccnc2c1NC(=O)c1cccnc1N2C1CC1",
+    "mw": 266.12,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-239",
+    "name": "Raltegravir",
+    "drugbank_id": null,
+    "drug_class": "Integrase inhibitor",
+    "indication": "HIV-1",
+    "smiles": "Cc1nnc(C(=O)NC(C)(C)c2nc(C(=O)NCc3ccc(F)cc3)c(O)c(=O)n2C)o1",
+    "mw": 444.16,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-240",
+    "name": "Dolutegravir",
+    "drugbank_id": null,
+    "drug_class": "Integrase inhibitor",
+    "indication": "HIV-1",
+    "smiles": "C[C@@H]1CCO[C@H]2Cn3cc(C(=O)NCc4ccc(F)cc4F)c(=O)c(O)c3C(=O)N12",
+    "mw": 419.13,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-241",
+    "name": "Ritonavir",
+    "drugbank_id": "DB00503",
+    "drug_class": "Protease inhibitor",
+    "indication": "HIV-1 (booster)",
+    "smiles": "CC(C)c1nc(CN(C)C(=O)N[C@H](C(=O)N[C@@H](Cc2ccccc2)C[C@H](O)[C@H](Cc2ccccc2)NC(=O)OCc2cncs2)C(C)C)cs1",
+    "mw": 720.31,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-242",
+    "name": "Lopinavir",
+    "drugbank_id": "DB01601",
+    "drug_class": "Protease inhibitor",
+    "indication": "HIV-1",
+    "smiles": "Cc1cccc(C)c1OCC(=O)N[C@@H](Cc1ccccc1)[C@@H](O)C[C@H](Cc1ccccc1)NC(=O)[C@H](C(C)C)N1CCCNC1=O",
+    "mw": 628.36,
+    "known_repurposing": {
+      "to": "COVID-19 (trials)",
+      "note": "Kaletra trialed against SARS-CoV-2 proteases."
+    }
+  },
+  {
+    "id": "DB-LIB-243",
+    "name": "Darunavir",
+    "drugbank_id": "DB06795",
+    "drug_class": "Protease inhibitor",
+    "indication": "HIV-1",
+    "smiles": "CC(C)CN(C[C@@H](O)[C@H](Cc1ccccc1)NC(=O)O[C@H]1CO[C@H]2OCC[C@H]21)S(=O)(=O)c1ccc(N)cc1",
+    "mw": 547.24,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-244",
+    "name": "Atazanavir",
+    "drugbank_id": "DB01072",
+    "drug_class": "Protease inhibitor",
+    "indication": "HIV-1",
+    "smiles": "COC(=O)N[C@H](C(=O)N[C@@H](Cc1ccccc1)[C@@H](O)CN(Cc1ccc(-c2ccccn2)cc1)NC(=O)[C@@H](NC(=O)OC)C(C)(C)C)C(C)(C)C",
+    "mw": 704.39,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-245",
+    "name": "Sofosbuvir",
+    "drugbank_id": "DB08934",
+    "drug_class": "NS5B inhibitor",
+    "indication": "Hepatitis C",
+    "smiles": "CC(C)OC(=O)[C@H](C)N[P@](=O)(OC[C@H]1O[C@@H](n2ccc(=O)[nH]c2=O)[C@](C)(F)[C@@H]1O)Oc1ccccc1",
+    "mw": 529.16,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-246",
+    "name": "Simeprevir",
+    "drugbank_id": null,
+    "drug_class": "NS3/4A inhibitor",
+    "indication": "Hepatitis C",
+    "smiles": "COc1ccc2c(O[C@@H]3C[C@H]4C(=O)N[C@]5(C(=O)NS(=O)(=O)C6CC6)C[C@H]5/C=C\\CCCCN(C)C(=O)[C@@H]4C3)cc(-c3nc(C(C)C)cs3)nc2c1C",
+    "mw": 749.29,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-247",
+    "name": "Boceprevir",
+    "drugbank_id": "DB08870",
+    "drug_class": "NS3/4A inhibitor",
+    "indication": "Hepatitis C",
+    "smiles": "CC(C)(C)NC(=O)N[C@H](C(=O)N1C[C@H]2[C@@H]([C@H]1C(=O)NC(CC1CCC1)C(=O)C(N)=O)C2(C)C)C(C)(C)C",
+    "mw": 519.34,
+    "known_repurposing": {
+      "to": "SARS-CoV-2 Mpro (studies)",
+      "note": "HCV protease inhibitor shown to inhibit SARS-CoV-2 Mpro."
+    }
+  },
+  {
+    "id": "DB-LIB-248",
+    "name": "Telaprevir",
+    "drugbank_id": null,
+    "drug_class": "NS3/4A inhibitor",
+    "indication": "Hepatitis C",
+    "smiles": "CCC[C@H](NC(=O)[C@@H]1[C@H]2CCC[C@H]2CN1C(=O)[C@@H](NC(=O)[C@@H](NC(=O)c1cnccn1)C1CCCCC1)C(C)(C)C)C(=O)C(=O)NC1CC1",
+    "mw": 679.41,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-249",
+    "name": "Ribavirin",
+    "drugbank_id": "DB00811",
+    "drug_class": "Guanosine analog",
+    "indication": "HCV, RSV, Lassa",
+    "smiles": "NC(=O)c1ncn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)n1",
+    "mw": 244.08,
+    "known_repurposing": {
+      "to": "HCV / viral hemorrhagic fevers",
+      "note": "Broad-spectrum antiviral repeatedly repositioned."
+    }
+  },
+  {
+    "id": "DB-LIB-250",
+    "name": "Entecavir",
+    "drugbank_id": "DB00452",
+    "drug_class": "Nucleoside analog",
+    "indication": "Hepatitis B",
+    "smiles": "C=C1[C@H](CO)[C@@H](O)C[C@@H]1n1cnc2c(=O)[nH]c(N)nc21",
+    "mw": 277.12,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-251",
+    "name": "Methotrexate",
+    "drugbank_id": "DB00563",
+    "drug_class": "Antifolate",
+    "indication": "Cancer, RA, psoriasis",
+    "smiles": "CN(Cc1cnc2nc(N)nc(N)c2n1)c1ccc(C(=O)N[C@@H](CCC(=O)O)C(=O)O)cc1",
+    "mw": 454.17,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-252",
+    "name": "Azathioprine",
+    "drugbank_id": "DB00993",
+    "drug_class": "Purine antimetabolite",
+    "indication": "Transplant, autoimmune",
+    "smiles": "Cn1cnc([N+](=O)[O-])c1Sc1ncnc2nc[nH]c12",
+    "mw": 277.04,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-253",
+    "name": "Mercaptopurine",
+    "drugbank_id": null,
+    "drug_class": "Purine antimetabolite",
+    "indication": "ALL",
+    "smiles": "S=c1nc[nH]c2nc[nH]c12",
+    "mw": 152.02,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-254",
+    "name": "Hydroxycarbamide",
+    "drugbank_id": null,
+    "drug_class": "Ribonucleotide reductase inhibitor",
+    "indication": "CML, sickle cell",
+    "smiles": "NC(=O)NO",
+    "mw": 76.03,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-255",
+    "name": "Cyclophosphamide",
+    "drugbank_id": "DB00531",
+    "drug_class": "Alkylating agent",
+    "indication": "Cancer, vasculitis",
+    "smiles": "O=P1(N(CCCl)CCCl)NCCCO1",
+    "mw": 260.02,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-256",
+    "name": "Ifosfamide",
+    "drugbank_id": null,
+    "drug_class": "Alkylating agent",
+    "indication": "Sarcoma",
+    "smiles": "O=P1(NCCCl)OCCCN1CCCl",
+    "mw": 260.02,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-257",
+    "name": "Etoposide",
+    "drugbank_id": null,
+    "drug_class": "Topoisomerase II inhibitor",
+    "indication": "Lymphoma, lung cancer",
+    "smiles": "COc1cc([C@@H]2c3cc4c(cc3[C@@H](O[C@@H]3O[C@@H]5CO[C@@H](C)O[C@H]5[C@H](O)[C@H]3O)[C@H]3COC(=O)[C@H]23)OCO4)cc(OC)c1O",
+    "mw": 588.18,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-258",
+    "name": "Doxorubicin",
+    "drugbank_id": null,
+    "drug_class": "Anthracycline",
+    "indication": "Broad cancer",
+    "smiles": "COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)C[C@@](O)(C(=O)CO)C[C@@H]3O[C@H]1C[C@H](N)[C@H](O)[C@H](C)O1",
+    "mw": 543.17,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-259",
+    "name": "Paclitaxel",
+    "drugbank_id": null,
+    "drug_class": "Taxane",
+    "indication": "Broad cancer",
+    "smiles": "CC(=O)O[C@H]1C(=O)[C@@]2(C)[C@H]([C@H](OC(=O)c3ccccc3)[C@]3(O)C[C@H](OC(=O)[C@H](O)[C@@H](NC(=O)c4ccccc4)c4ccccc4)C(C)=C1C3(C)C)[C@]1(OC(C)=O)CO[C@@H]1C[C@@H]2O",
+    "mw": 853.33,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-260",
+    "name": "Docetaxel",
+    "drugbank_id": null,
+    "drug_class": "Taxane",
+    "indication": "Broad cancer",
+    "smiles": "CC(=O)O[C@@]12CO[C@@H]1C[C@H](O)[C@@]1(C)C(=O)[C@H](O)C3=C(C)[C@@H](OC(=O)[C@H](O)[C@@H](NC(=O)OC(C)(C)C)c4ccccc4)C[C@@](O)([C@@H](OC(=O)c4ccccc4)[C@H]21)C3(C)C",
+    "mw": 807.35,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-261",
+    "name": "Vincristine",
+    "drugbank_id": null,
+    "drug_class": "Vinca alkaloid",
+    "indication": "Leukemia, lymphoma",
+    "smiles": "CC[C@]1(O)C[C@H]2CN(CCc3c([nH]c4ccccc34)[C@@](C(=O)OC)(c3cc4c(cc3OC)N(C=O)[C@H]3[C@@](O)(C(=O)OC)[C@H](OC(C)=O)[C@]5(CC)C=CCN6CC[C@]43[C@@H]65)C2)C1",
+    "mw": 824.4,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-262",
+    "name": "Vinblastine",
+    "drugbank_id": null,
+    "drug_class": "Vinca alkaloid",
+    "indication": "Lymphoma",
+    "smiles": "CC[C@]1(O)C[C@@H]2CN(CCc3c([nH]c4ccccc34)[C@@](C(=O)OC)(c3cc4c(cc3OC)N(C)[C@H]3[C@@](O)(C(=O)OC)[C@H](OC(C)=O)[C@]5(CC)C=CCN6CC[C@]43[C@@H]65)C2)C1",
+    "mw": 810.42,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-263",
+    "name": "Fluorouracil",
+    "drugbank_id": null,
+    "drug_class": "Antimetabolite",
+    "indication": "CRC, skin cancer",
+    "smiles": "O=c1[nH]cc(F)c(=O)[nH]1",
+    "mw": 130.02,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-264",
+    "name": "Capecitabine",
+    "drugbank_id": null,
+    "drug_class": "Prodrug of 5-FU",
+    "indication": "CRC, breast",
+    "smiles": "CCCCCOC(=O)Nc1nc(=O)n([C@@H]2O[C@H](C)[C@@H](O)[C@H]2O)cc1F",
+    "mw": 359.15,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-265",
+    "name": "Gemcitabine",
+    "drugbank_id": null,
+    "drug_class": "Antimetabolite",
+    "indication": "Pancreatic, lung",
+    "smiles": "Nc1ccn([C@@H]2O[C@H](CO)[C@@H](O)C2(F)F)c(=O)n1",
+    "mw": 263.07,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-266",
+    "name": "Cisplatin",
+    "drugbank_id": null,
+    "drug_class": "Platinum agent",
+    "indication": "Testicular, ovarian, lung",
+    "smiles": "N.N.[Cl][Pt][Cl]",
+    "mw": 298.96,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-267",
+    "name": "Cyclosporine",
+    "drugbank_id": "DB01091",
+    "drug_class": "Calcineurin inhibitor",
+    "indication": "Transplant, psoriasis",
+    "smiles": "C/C=C/C[C@@H](C)[C@@H](O)[C@H]1C(=O)N[C@@H](CC)C(=O)N(C)CC(=O)N(C)[C@@H](CC(C)C)C(=O)N[C@@H](C(C)C)C(=O)N(C)[C@@H](CC(C)C)C(=O)N[C@@H](C)C(=O)N[C@H](C)C(=O)N(C)[C@@H](CC(C)C)C(=O)N(C)[C@@H](CC(C)C)C(=O)N(C)[C@@H](C(C)C)C(=O)N1C",
+    "mw": 1201.84,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-268",
+    "name": "Tacrolimus",
+    "drugbank_id": "DB00864",
+    "drug_class": "Calcineurin inhibitor",
+    "indication": "Transplant, atopic dermatitis",
+    "smiles": "C=CC[C@@H]1/C=C(\\C)C[C@H](C)C[C@H](OC)[C@H]2O[C@@](O)(C(=O)C(=O)N3CCCC[C@H]3C(=O)O[C@H](/C(C)=C/[C@@H]3CC[C@@H](O)[C@H](OC)C3)[C@H](C)[C@@H](O)CC1=O)[C@H](C)C[C@@H]2OC",
+    "mw": 803.48,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-269",
+    "name": "Sirolimus",
+    "drugbank_id": "DB00877",
+    "drug_class": "mTOR inhibitor",
+    "indication": "Transplant",
+    "smiles": "CO[C@H]1C[C@@H]2CC[C@@H](C)[C@@](O)(O2)C(=O)C(=O)N2CCCC[C@H]2C(=O)O[C@H]([C@H](C)C[C@@H]2CC[C@@H](O)[C@H](OC)C2)CC(=O)[C@H](C)/C=C(\\C)[C@@H](O)[C@@H](OC)C(=O)[C@H](C)C[C@H](C)/C=C/C=C/C=C/1C",
+    "mw": 913.56,
+    "known_repurposing": {
+      "to": "Lymphangioleiomyomatosis",
+      "note": "mTOR inhibition repurposed for LAM and coated stents."
+    }
+  },
+  {
+    "id": "DB-LIB-270",
+    "name": "Everolimus",
+    "drugbank_id": "DB01590",
+    "drug_class": "mTOR inhibitor",
+    "indication": "Transplant, cancer",
+    "smiles": "CO[C@H]1C[C@@H]2CC[C@@H](C)[C@@](O)(O2)C(=O)C(=O)N2CCCC[C@H]2C(=O)O[C@H]([C@H](C)C[C@@H]2CC[C@@H](OCCO)[C@H](OC)C2)CC(=O)[C@H](C)/C=C(\\C)[C@@H](O)[C@@H](OC)C(=O)[C@H](C)C[C@H](C)/C=C/C=C/C=C/1C",
+    "mw": 957.58,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-271",
+    "name": "Imatinib",
+    "drugbank_id": "DB00619",
+    "drug_class": "BCR-ABL inhibitor",
+    "indication": "CML, GIST",
+    "smiles": "Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1",
+    "mw": 493.26,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-272",
+    "name": "Dasatinib",
+    "drugbank_id": "DB01254",
+    "drug_class": "BCR-ABL/Src inhibitor",
+    "indication": "CML",
+    "smiles": "Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1",
+    "mw": 487.16,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-273",
+    "name": "Erlotinib",
+    "drugbank_id": "DB01197",
+    "drug_class": "EGFR inhibitor",
+    "indication": "NSCLC, pancreatic",
+    "smiles": "C#Cc1cccc(Nc2ncnc3cc(OCCOC)c(OCCOC)cc23)c1",
+    "mw": 393.17,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-274",
+    "name": "Gefitinib",
+    "drugbank_id": "DB00317",
+    "drug_class": "EGFR inhibitor",
+    "indication": "NSCLC",
+    "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCCN1CCOCC1",
+    "mw": 446.15,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-275",
+    "name": "Sunitinib",
+    "drugbank_id": "DB01268",
+    "drug_class": "RTK inhibitor",
+    "indication": "RCC, GIST",
+    "smiles": "CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\\C(=O)Nc3ccc(F)cc32)c1C",
+    "mw": 398.21,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-276",
+    "name": "Sorafenib",
+    "drugbank_id": null,
+    "drug_class": "Multikinase inhibitor",
+    "indication": "HCC, RCC",
+    "smiles": "CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1",
+    "mw": 464.09,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-277",
+    "name": "Lapatinib",
+    "drugbank_id": null,
+    "drug_class": "HER2/EGFR inhibitor",
+    "indication": "Breast cancer",
+    "smiles": "CS(=O)(=O)CCNCc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1",
+    "mw": 580.13,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-278",
+    "name": "Tamoxifen",
+    "drugbank_id": "DB00675",
+    "drug_class": "SERM",
+    "indication": "Breast cancer",
+    "smiles": "CC/C(=C(\\c1ccccc1)c1ccc(OCCN(C)C)cc1)c1ccccc1",
+    "mw": 371.22,
+    "known_repurposing": {
+      "to": "Bipolar mania (trials)",
+      "note": "PKC inhibition explored for acute mania."
+    }
+  },
+  {
+    "id": "DB-LIB-279",
+    "name": "Raloxifene",
+    "drugbank_id": "DB00481",
+    "drug_class": "SERM",
+    "indication": "Osteoporosis",
+    "smiles": "O=C(c1ccc(OCCN2CCCCC2)cc1)c1c(-c2ccc(O)cc2)sc2cc(O)ccc12",
+    "mw": 473.17,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-280",
+    "name": "Letrozole",
+    "drugbank_id": "DB01006",
+    "drug_class": "Aromatase inhibitor",
+    "indication": "Breast cancer",
+    "smiles": "N#Cc1ccc(C(c2ccc(C#N)cc2)n2cncn2)cc1",
+    "mw": 285.1,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-281",
+    "name": "Anastrozole",
+    "drugbank_id": "DB01217",
+    "drug_class": "Aromatase inhibitor",
+    "indication": "Breast cancer",
+    "smiles": "CC(C)(C#N)c1cc(Cn2cncn2)cc(C(C)(C)C#N)c1",
+    "mw": 293.16,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-282",
+    "name": "Fulvestrant",
+    "drugbank_id": null,
+    "drug_class": "SERD",
+    "indication": "Breast cancer",
+    "smiles": "C[C@]12CC[C@@H]3c4ccc(O)cc4C[C@@H](CCCCCCCCCS(=O)CCCC(F)(F)C(F)(F)F)[C@H]3[C@@H]1CC[C@@H]2O",
+    "mw": 606.32,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-283",
+    "name": "Thalidomide",
+    "drugbank_id": "DB01041",
+    "drug_class": "Immunomodulator",
+    "indication": "Myeloma, ENL",
+    "smiles": "O=C1CCC(N2C(=O)c3ccccc3C2=O)C(=O)N1",
+    "mw": 258.06,
+    "known_repurposing": {
+      "to": "Multiple myeloma / leprosy",
+      "note": "Withdrawn teratogen reborn as anti-angiogenic myeloma therapy."
+    }
+  },
+  {
+    "id": "DB-LIB-284",
+    "name": "Lenalidomide",
+    "drugbank_id": "DB00880",
+    "drug_class": "Immunomodulator",
+    "indication": "Myeloma, MDS",
+    "smiles": "Nc1cccc2c1CN(C1CCC(=O)NC1=O)C2=O",
+    "mw": 259.1,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-285",
+    "name": "Pomalidomide",
+    "drugbank_id": null,
+    "drug_class": "Immunomodulator",
+    "indication": "Refractory myeloma",
+    "smiles": "Nc1cccc2c1C(=O)N(C1CCC(=O)NC1=O)C2=O",
+    "mw": 273.07,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-286",
+    "name": "Tretinoin",
+    "drugbank_id": "DB00755",
+    "drug_class": "Retinoid",
+    "indication": "APL, acne",
+    "smiles": "CC1=C(/C=C/C(C)=C/C=C/C(C)=C/C(=O)O)C(C)(C)CCC1",
+    "mw": 300.21,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-287",
+    "name": "Isotretinoin",
+    "drugbank_id": "DB00982",
+    "drug_class": "Retinoid",
+    "indication": "Severe acne",
+    "smiles": "CC1=C(/C=C/C(C)=C/C=C/C(C)=C\\C(=O)O)C(C)(C)CCC1",
+    "mw": 300.21,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-288",
+    "name": "Alendronate",
+    "drugbank_id": "DB00630",
+    "drug_class": "Bisphosphonate",
+    "indication": "Osteoporosis",
+    "smiles": "NCCCC(O)(P(=O)(O)O)P(=O)(O)O",
+    "mw": 249.02,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-289",
+    "name": "Zoledronic acid",
+    "drugbank_id": null,
+    "drug_class": "Bisphosphonate",
+    "indication": "Bone metastases, osteoporosis",
+    "smiles": "O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O",
+    "mw": 272.0,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-290",
+    "name": "Calcitriol",
+    "drugbank_id": null,
+    "drug_class": "Vitamin D analog",
+    "indication": "Renal osteodystrophy",
+    "smiles": "C=C1/C(=C\\C=C2/CCC[C@]3(C)[C@@H]([C@H](C)CCCC(C)(C)O)CC[C@@H]23)C[C@@H](O)C[C@@H]1O",
+    "mw": 416.33,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-291",
+    "name": "Cholecalciferol",
+    "drugbank_id": null,
+    "drug_class": "Vitamin D3",
+    "indication": "Vitamin D deficiency",
+    "smiles": "C=C1CC[C@H](O)C/C1=C/C=C1\\CCC[C@]2(C)[C@@H]([C@H](C)CCCC(C)C)CC[C@@H]12",
+    "mw": 384.34,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-292",
+    "name": "Dexamethasone",
+    "drugbank_id": "DB01234",
+    "drug_class": "Corticosteroid",
+    "indication": "Inflammation, edema",
+    "smiles": "C[C@@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@]2(C)[C@@]1(O)C(=O)CO",
+    "mw": 392.2,
+    "known_repurposing": {
+      "to": "COVID-19 mortality reduction",
+      "note": "RECOVERY trial: first drug shown to cut COVID-19 deaths."
+    }
+  },
+  {
+    "id": "DB-LIB-293",
+    "name": "Prednisolone",
+    "drugbank_id": "DB00860",
+    "drug_class": "Corticosteroid",
+    "indication": "Inflammation, autoimmune",
+    "smiles": "C[C@]12C=CC(=O)C=C1CC[C@@H]1[C@@H]2[C@@H](O)C[C@@]2(C)[C@H]1CC[C@]2(O)C(=O)CO",
+    "mw": 360.19,
+    "known_repurposing": null
+  },
+  {
+    "id": "DB-LIB-294",
+    "name": "Prednisone",
+    "drugbank_id": "DB00635",
+    "drug_class": "Corticosteroid",
+    "indication": "Inflammation, autoimmune",
+    "smiles": "C[C@]12C=CC(=O)C=C1CC[C@@H]1[C@@H]2C(=O)C[C@@]2(C)[C@H]1CC[C@]2(O)C(=O)CO",
+    "mw": 358.18,
+    "known_repurposing": null
+  }
+]
