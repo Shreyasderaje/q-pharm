@@ -180,6 +180,45 @@ validated M$^{\text{pro}}$ screening results — is available in
 [`papers/qpharm-preprint.pdf`](papers/qpharm-preprint.pdf) (LaTeX source and
 figure-reproduction script in [`papers/`](papers/)).
 
+## Deployment (public HTTPS URL)
+
+The whole application — FastAPI + React production build + the real docking/VQE/ADMET
+pipeline — deploys as a single web service. Render is the tested path (free plan works,
+no GPU needed).
+
+### One-click (Render Blueprint)
+
+1. Push this repository to your GitHub account (or fork it).
+2. On [render.com](https://render.com): **New + → Blueprint** and select the repo —
+   Render reads [`render.yaml`](render.yaml) and configures everything.
+3. Wait for the build (~5–8 min), then open your service URL
+   (`https://q-pharm-xxxx.onrender.com`).
+
+### Manual (any platform)
+
+| Setting | Value |
+|---|---|
+| Root directory | repository root |
+| Build command | `pip install -r backend/requirements.txt && npm --prefix frontend install && npm --prefix frontend run build` |
+| Start command | `cd backend && uvicorn app.main:app --host 0.0.0.0 --port $PORT` |
+| Health check | `/api/health` |
+| Environment | `PYTHON_VERSION=3.11.9`, `QPHARM_JOBS_DIR=/tmp/qpharm-jobs` (optional) |
+
+FastAPI detects `frontend/dist` at startup and serves the production frontend plus the
+API from one port; the frontend calls the API with relative `/api/...` paths, so no
+CORS or host configuration is needed.
+
+### Cloud notes (free plan)
+
+* **Cold starts:** free services sleep after ~15 min without traffic; the first request
+  afterwards takes ~1 min (RDKit + Qiskit imports). Open the URL a few minutes before a
+  demo so it is warm.
+* **Memory:** the free tier is 512 MB. The full pipeline fits, but prefer the
+  **Fast (25 drugs)** preset for judge demos; Standard (60) also works, Deep (120) is
+  the slowest.
+* **Job lifetime:** finished screenings live in memory — they disappear on restart or
+  sleep. Export CSV / share the permalink during the session.
+
 ## Limitations (read this)
 
 * **Rigid receptor, approximate docking.** The empirical scoring function and

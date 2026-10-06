@@ -1,0 +1,23 @@
+# Render Blueprint for Q-Pharm
+# Deploys the full application: FastAPI serves the React production build
+# and runs the real docking + VQE + ADMET + ML pipeline. No mocks.
+#
+# Deploy: Render Dashboard -> New + -> Blueprint -> select this repository.
+# Or create a Web Service manually with the build/start commands below.
+
+services:
+  - type: web
+    name: q-pharm
+    runtime: python
+    plan: free
+    region: singapore
+    buildCommand: pip install -r backend/requirements.txt && npm --prefix frontend install && npm --prefix frontend run build
+    startCommand: cd backend && uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      # Pin CPython so RDKit / Qiskit / NumPy / SciPy wheels are guaranteed available
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      # Screening job artifacts (poses, structures) — ephemeral disk is fine for demos
+      - key: QPHARM_JOBS_DIR
+        value: /tmp/qpharm-jobs
